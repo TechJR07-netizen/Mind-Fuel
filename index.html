@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MindFuel</title>
+
+  <style>
+    /* ==== Base Reset ==== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0a0a0f, #1b1b2f);
+      color: #fff;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    /* ==== Splash Screen ==== */
+    #splash {
+      position: fixed;
+      inset: 0;
+      background-color: #000;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      animation: fadeOut 1s ease forwards;
+      animation-delay: 3.2s;
+      z-index: 1000;
+    }
+
+    #splash h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      color: #00aaff;
+      opacity: 0;
+      animation: fadeInZoom 1.2s ease forwards;
+    }
+
+    #splash p {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+      color: #ccc;
+      opacity: 0;
+      animation: fadeIn 1.5s ease forwards;
+      animation-delay: 0.8s;
+    }
+
+    #splash small {
+      margin-top: 1.5rem;
+      font-size: 0.9rem;
+      color: #777;
+      opacity: 0;
+      animation: fadeIn 2s ease forwards;
+      animation-delay: 1.8s;
+    }
+
+    @keyframes fadeInZoom {
+      0% { opacity: 0; transform: scale(0.8); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+    @keyframes fadeIn { to { opacity: 1; } }
+    @keyframes fadeOut { to { opacity: 0; visibility: hidden; } }
+
+    /* ==== Main Container ==== */
+    .container {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+      max-width: 420px;
+      padding: 2rem;
+      border-radius: 1.5rem;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(20px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+      animation: fadeInMain 1s ease forwards;
+    }
+
+    @keyframes fadeInMain {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .logo {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #00aaff;
+      margin-bottom: 2rem;
+    }
+
+    /* ==== Cards ==== */
+    .card {
+      width: 100%;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 1rem;
+      padding: 1.2rem;
+      margin-bottom: 1rem;
+      transition: 0.3s;
+      text-align: center;
+    }
+
+    .card:hover {
+      background: rgba(255, 255, 255, 0.15);
+      transform: translateY(-5px);
+    }
+
+    .card h2 {
+      color: #00aaff;
+      font-size: 1.2rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .card p {
+      color: #ccc;
+      font-size: 0.9rem;
+      margin-bottom: 0.7rem;
+    }
+
+    .btn {
+      background: #00aaff;
+      color: #fff;
+      border: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 2rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #0077cc;
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: 1.5rem;
+      color: #777;
+      font-size: 0.9rem;
+    }
+
+    /* ==== Responsive ==== */
+    @media (max-width: 480px) {
+      .container {
+        width: 90%;
+        padding: 1.5rem;
+      }
+      .logo {
+        font-size: 1.6rem;
+      }
+      .card h2 {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Splash Screen -->
+  <div id="splash">
+    <h1>MindFuel</h1>
+    <p>Fuel your brain. Unlock your potential.</p>
+    <small>Made by JR</small>
+  </div>
+
+  <!-- Main App -->
+  <div class="container" id="mainContent">
+    <div class="logo">🧠 MindFuel</div>
+
+    <div class="card">
+      <h2>📚 Daily Quiz</h2>
+      <p>Test your knowledge & earn coins!</p>
+      <button class="btn">Start Quiz</button>
+    </div>
+
+    <div class="card">
+      <h2>🏆 Leaderboard</h2>
+      <p>Compete with others & climb ranks.</p>
+      <button class="btn">View</button>
+    </div>
+
+    <div class="card">
+      <h2>💰 Redeem Rewards</h2>
+      <p>Convert your points into rewards.</p>
+      <button class="btn">Redeem</button>
+    </div>
+
+    <div class="card">
+      <h2>👥 Invite Friends</h2>
+      <p>Invite & earn bonus coins.</p>
+      <button class="btn">Invite</button>
+    </div>
+
+    <footer>Made by JR</footer>
+  </div>
+
+  <script>
+    // Auto hide splash screen and show main app
+    setTimeout(() => {
+      document.getElementById("splash").style.display = "none";
+      document.getElementById("mainContent").style.display = "flex";
+    }, 3500);
+  </script>
+</body>
+</html>
