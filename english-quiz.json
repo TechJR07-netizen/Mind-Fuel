@@ -40,3 +40,185 @@
     "answer": "Yes, please."
   }
 ]
+[
+  {
+    "question": "Choose the correct antonym of 'Ancient'.",
+    "options": ["Old", "Modern", "Historic", "Past"],
+    "answer": 1
+  },
+  {
+    "question": "The idiom 'A blessing in disguise' means:",
+    "options": [
+      "Something bad turned out good",
+      "A hidden curse",
+      "A pleasant surprise",
+      "None of these"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Select the correct spelling:",
+    "options": ["Accomodation", "Accommodation", "Acommodation", "Accommadation"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the correct option: The train ____ before we reached the station.",
+    "options": ["left", "leaves", "had left", "has left"],
+    "answer": 2
+  },
+  {
+    "question": "Find the synonym of 'Enormous'.",
+    "options": ["Tiny", "Huge", "Light", "Narrow"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the correct article: He is ___ honest man.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the correct preposition: She is afraid ___ spiders.",
+    "options": ["from", "with", "of", "to"],
+    "answer": 2
+  },
+  {
+    "question": "Choose the correct tense: By next year, I ____ my graduation.",
+    "options": ["complete", "will complete", "will have completed", "completed"],
+    "answer": 2
+  },
+  {
+    "question": "Select the correct passive voice: They are repairing the road.",
+    "options": [
+      "The road repaired by them.",
+      "The road is repaired by them.",
+      "The road is being repaired by them.",
+      "The road has been repaired by them."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Find the antonym of 'Generous'.",
+    "options": ["Kind", "Selfish", "Helpful", "Polite"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the correct option: If it rains, we ____ go out.",
+    "options": ["will not", "did not", "not", "don't"],
+    "answer": 0
+  },
+  {
+    "question": "Identify the correct indirect speech: He said, 'I am tired.'",
+    "options": [
+      "He said that he is tired.",
+      "He said that he was tired.",
+      "He says he was tired.",
+      "He told he is tired."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Select the correct word: The boy was punished for his ____ behaviour.",
+    "options": ["obedient", "obedience", "disobedient", "disobey"],
+    "answer": 2
+  },
+  {
+    "question": "Choose the synonym of 'Rapid'.",
+    "options": ["Fast", "Slow", "Calm", "Steady"],
+    "answer": 0
+  },
+  {
+    "question": "Fill in the blank: The sun ____ in the east.",
+    "options": ["rise", "rises", "rose", "rising"],
+    "answer": 1
+  },
+  {
+    "question": "Identify the correctly punctuated sentence.",
+    "options": [
+      "He said, 'come here'.",
+      "He said, 'Come here.'",
+      "He said, come here.",
+      "He said, Come here."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Choose the correct option: She prefers tea ____ coffee.",
+    "options": ["than", "to", "over", "from"],
+    "answer": 1
+  },
+  {
+    "question": "Find the antonym of 'Artificial'.",
+    "options": ["Synthetic", "Natural", "Man-made", "Plastic"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the correct option: I have been waiting here ____ two hours.",
+    "options": ["since", "for", "from", "till"],
+    "answer": 1
+  },
+  {
+    "question": "The idiom 'Hit the nail on the head' means:",
+    "options": [
+      "To make a mistake",
+      "To say exactly the right thing",
+      "To hurt someone",
+      "To hit hard"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Select the correct form: He is one of those boys who ____ always late.",
+    "options": ["is", "was", "are", "has been"],
+    "answer": 2
+  },
+  {
+    "question": "Choose the correct preposition: The cat is hiding ____ the bed.",
+    "options": ["in", "on", "under", "behind"],
+    "answer": 2
+  },
+  {
+    "question": "Find the synonym of 'Fortunate'.",
+    "options": ["Lucky", "Poor", "Sad", "Unhappy"],
+    "answer": 0
+  },
+  {
+    "question": "Choose the correct option: Each of the boys ____ given a prize.",
+    "options": ["was", "were", "are", "be"],
+    "answer": 0
+  },
+  {
+    "question": "Identify the correct spelling:",
+    "options": ["Definately", "Definitely", "Definetly", "Definatly"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the correct option: He is senior ____ me.",
+    "options": ["than", "to", "from", "of"],
+    "answer": 1
+  },
+  {
+    "question": "Fill in the blank: She is interested ____ music.",
+    "options": ["with", "in", "on", "at"],
+    "answer": 1
+  },
+  {
+    "question": "The idiom 'Break the ice' means:",
+    "options": [
+      "To start a conversation",
+      "To break something",
+      "To become cold",
+      "To end a friendship"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Choose the correct tense: I ____ my homework before dinner.",
+    "options": ["finish", "finished", "had finished", "have finish"],
+    "answer": 2
+  },
+  {
+    "question": "Find the antonym of 'Proud'.",
+    "options": ["Arrogant", "Humble", "Boastful", "Egoistic"],
+    "answer": 1
+  }
+]
