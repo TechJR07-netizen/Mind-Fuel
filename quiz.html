@@ -1,113 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>English Quiz | Mind Fuel</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>MindFuel Quiz</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #89f7fe, #66a6ff);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
+    :root {
+      --bg1: #0f1724;
+      --card: #0b1220;
+      --accent: #00aaff;
+      --muted: #cbd5e1;
     }
+
+    body {
+      margin: 0;
+      font-family: Poppins, system-ui, Arial;
+      background: linear-gradient(135deg, #071021, #0b1b2b);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
     .quiz-box {
-      background: white;
-      padding: 30px;
-      border-radius: 20px;
-      box-shadow: 0 5px 20px rgba(0,0,0,0.2);
-      width: 90%;
-      max-width: 400px;
+      width: 100%;
+      max-width: 720px;
+      background: rgba(255,255,255,0.04);
+      border-radius: 14px;
+      padding: 28px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
       text-align: center;
     }
-    h2 {
-      color: #333;
+
+    h1 {
+      color: var(--accent);
+      margin: 0 0 6px;
+      font-size: 1.4rem;
     }
-    .option {
-      background: #f0f0f0;
-      padding: 10px;
-      margin: 8px 0;
+
+    .meta {
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
+
+    .question {
+      font-size: 1.25rem;
+      margin: 18px 0 12px;
+    }
+
+    .options {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+
+    .opt {
+      background: rgba(255,255,255,0.06);
+      padding: 12px;
       border-radius: 10px;
       cursor: pointer;
-      transition: 0.3s;
+      transition: 0.12s;
+      color: #fff;
     }
-    .option:hover {
-      background: #dbe9ff;
+
+    .opt:hover {
+      transform: translateY(-3px);
+      background: rgba(0,170,255,0.12);
     }
+
+    .opt.correct {
+      background: linear-gradient(90deg, #0ea55f, #06b76a);
+      color: #04140a;
+    }
+
+    .opt.wrong {
+      background: linear-gradient(90deg, #ff6b6b, #ff9393);
+      color: #2b0606;
+    }
+
+    .controls {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      margin-top: 12px;
+    }
+
     .btn {
-      background: #007bff;
-      color: white;
+      background: var(--accent);
       border: none;
-      padding: 10px 20px;
-      margin-top: 15px;
-      border-radius: 10px;
+      padding: 10px 18px;
+      border-radius: 999px;
+      color: #fff;
       cursor: pointer;
+      font-weight: 600;
     }
-    .btn:hover {
-      background: #0056b3;
+
+    .btn.secondary {
+      background: transparent;
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+
+    .footer {
+      margin-top: 16px;
+      color: var(--muted);
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
   <div class="quiz-box">
-    <h2 id="question">Loading question...</h2>
-    <div id="options"></div>
-    <button id="next-btn" class="btn">Next</button>
+    <h1>MindFuel Quiz</h1>
+    <div class="meta" id="subjectMeta">Loading...</div>
+
+    <div id="content">
+      <div class="question" id="question">Loading question...</div>
+      <div class="options" id="options"></div>
+
+      <div class="controls">
+        <button id="prevBtn" class="btn secondary" style="display:none">Previous</button>
+        <button id="nextBtn" class="btn">Next</button>
+      </div>
+    </div>
+
+    <div id="result" style="display:none">
+      <h2>Quiz Completed 🎉</h2>
+      <p id="scoreText"></p>
+      <div class="controls">
+        <button class="btn" id="retryBtn">Restart</button>
+        <button class="btn secondary" id="backBtn">Back to Subjects</button>
+      </div>
+    </div>
+
+    <div class="footer">Made by JR</div>
   </div>
 
   <script>
-    let currentQuestion = 0;
-    let score = 0;
-    let questions = [];
+    const urlParams = new URLSearchParams(window.location.search);
+    const subject = urlParams.get('subject') || 'english';
 
-    async function loadQuestions() {
-      const res = await fetch("english-quiz.json");
-      questions = await res.json();
-      showQuestion();
+    let quizFile = '';
+
+    switch (subject) {
+      case 'english':
+        quizFile = 'english-quiz.json';
+        break;
+      case 'hindi':
+        quizFile = 'hindi-quiz.json';
+        break;
+      case 'maths':
+        quizFile = 'maths-quiz.json';
+        break;
+      case 'science':
+        quizFile = 'science-quiz.json';
+        break;
+      case 'commerce':
+        quizFile = 'commerce-quiz.json';
+        break;
+      case 'gk':
+        quizFile = 'gk-quiz.json';
+        break;
+      case 'current':
+        quizFile = 'current-quiz.json';
+        break;
+      default:
+        quizFile = 'english-quiz.json';
     }
+
+    document.getElementById("subjectMeta").innerText = `Subject: ${subject.toUpperCase()}`;
+
+    let questions = [];
+    let index = 0;
+    let score = 0;
+
+    fetch(quizFile)
+      .then(res => res.json())
+      .then(data => {
+        questions = data;
+        showQuestion();
+      })
+      .catch(err => {
+        document.getElementById("question").innerText = "Error loading quiz!";
+        console.error(err);
+      });
 
     function showQuestion() {
-      const q = questions[currentQuestion];
-      document.getElementById("question").textContent = q.question;
+      const q = questions[index];
+      document.getElementById("question").innerText = `${index + 1}. ${q.question}`;
       const optionsDiv = document.getElementById("options");
       optionsDiv.innerHTML = "";
+
       q.options.forEach(opt => {
         const btn = document.createElement("div");
-        btn.className = "option";
-        btn.textContent = opt;
-        btn.onclick = () => checkAnswer(opt);
+        btn.classList.add("opt");
+        btn.innerText = opt;
+        btn.onclick = () => selectOption(btn, q.answer);
         optionsDiv.appendChild(btn);
       });
+
+      document.getElementById("prevBtn").style.display = index > 0 ? "inline-block" : "none";
     }
 
-    function checkAnswer(selected) {
-      const q = questions[currentQuestion];
-      if (selected === q.answer) {
+    function selectOption(el, correctAns) {
+      const all = document.querySelectorAll(".opt");
+      all.forEach(opt => opt.onclick = null);
+      if (el.innerText === correctAns) {
+        el.classList.add("correct");
         score++;
-        alert("✅ Correct!");
       } else {
-        alert("❌ Wrong! Correct answer: " + q.answer);
+        el.classList.add("wrong");
+        all.forEach(opt => {
+          if (opt.innerText === correctAns) opt.classList.add("correct");
+        });
       }
-      currentQuestion++;
-      if (currentQuestion < questions.length) {
+      setTimeout(nextQuestion, 1000);
+    }
+
+    function nextQuestion() {
+      if (index < questions.length - 1) {
+        index++;
         showQuestion();
       } else {
-        endQuiz();
+        document.getElementById("content").style.display = "none";
+        document.getElementById("result").style.display = "block";
+        document.getElementById("scoreText").innerText = `You scored ${score} out of ${questions.length}`;
       }
     }
 
-    function endQuiz() {
-      document.querySelector(".quiz-box").innerHTML = `
-        <h2>Quiz Completed 🎉</h2>
-        <p>Your Score: ${score} / ${questions.length}</p>
-        <button class="btn" onclick="location.reload()">Restart</button>
-      `;
-    }
-
-    loadQuestions();
+    document.getElementById("nextBtn").onclick = nextQuestion;
+    document.getElementById("prevBtn").onclick = () => { index--; showQuestion(); };
+    document.getElementById("retryBtn").onclick = () => location.reload();
+    document.getElementById("backBtn").onclick = () => location.href = "quiz-select.html";
   </script>
 </body>
-  </html>
+        </html>
