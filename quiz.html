@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>English Quiz | Mind Fuel</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #89f7fe, #66a6ff);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .quiz-box {
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+      width: 90%;
+      max-width: 400px;
+      text-align: center;
+    }
+    h2 {
+      color: #333;
+    }
+    .option {
+      background: #f0f0f0;
+      padding: 10px;
+      margin: 8px 0;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .option:hover {
+      background: #dbe9ff;
+    }
+    .btn {
+      background: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin-top: 15px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="quiz-box">
+    <h2 id="question">Loading question...</h2>
+    <div id="options"></div>
+    <button id="next-btn" class="btn">Next</button>
+  </div>
+
+  <script>
+    let currentQuestion = 0;
+    let score = 0;
+    let questions = [];
+
+    async function loadQuestions() {
+      const res = await fetch("english-quiz.json");
+      questions = await res.json();
+      showQuestion();
+    }
+
+    function showQuestion() {
+      const q = questions[currentQuestion];
+      document.getElementById("question").textContent = q.question;
+      const optionsDiv = document.getElementById("options");
+      optionsDiv.innerHTML = "";
+      q.options.forEach(opt => {
+        const btn = document.createElement("div");
+        btn.className = "option";
+        btn.textContent = opt;
+        btn.onclick = () => checkAnswer(opt);
+        optionsDiv.appendChild(btn);
+      });
+    }
+
+    function checkAnswer(selected) {
+      const q = questions[currentQuestion];
+      if (selected === q.answer) {
+        score++;
+        alert("✅ Correct!");
+      } else {
+        alert("❌ Wrong! Correct answer: " + q.answer);
+      }
+      currentQuestion++;
+      if (currentQuestion < questions.length) {
+        showQuestion();
+      } else {
+        endQuiz();
+      }
+    }
+
+    function endQuiz() {
+      document.querySelector(".quiz-box").innerHTML = `
+        <h2>Quiz Completed 🎉</h2>
+        <p>Your Score: ${score} / ${questions.length}</p>
+        <button class="btn" onclick="location.reload()">Restart</button>
+      `;
+    }
+
+    loadQuestions();
+  </script>
+</body>
+  </html>
