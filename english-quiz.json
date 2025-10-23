@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "Choose the correct form of the verb: He ____ to school every day.",
+    "options": ["go", "goes", "gone", "going"],
+    "answer": "goes"
+  },
+  {
+    "id": 2,
+    "question": "Find the synonym of 'Brave'.",
+    "options": ["Cowardly", "Fearful", "Courageous", "Weak"],
+    "answer": "Courageous"
+  },
+  {
+    "id": 3,
+    "question": "Fill in the blank: If I ____ you, I would apologize.",
+    "options": ["was", "were", "am", "be"],
+    "answer": "were"
+  },
+  {
+    "id": 4,
+    "question": "Choose the correct sentence.",
+    "options": [
+      "He don’t likes coffee.",
+      "He doesn’t like coffee.",
+      "He don’t like coffee.",
+      "He doesn’t likes coffee."
+    ],
+    "answer": "He doesn’t like coffee."
+  },
+  {
+    "id": 5,
+    "question": "Select the most suitable response: 'Would you like some tea?'",
+    "options": [
+      "No, I don’t.",
+      "Yes, I am.",
+      "Yes, please.",
+      "No, I not."
+    ],
+    "answer": "Yes, please."
+  }
+]
