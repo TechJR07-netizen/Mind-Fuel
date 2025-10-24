@@ -1,0 +1,304 @@
+[
+  {
+    "id": 1,
+    "question": "What is the chemical symbol of water? (पानी का रासायनिक संकेत क्या है?)",
+    "options": ["H2O (एच₂ओ)", "O2 (ऑक्सीजन)", "CO2 (कार्बन डाइऑक्साइड)", "H2 (हाइड्रोजन)"],
+    "answer": "H2O (एच₂ओ)"
+  },
+  {
+    "id": 2,
+    "question": "Which planet is known as the Red Planet? (कौन सा ग्रह लाल ग्रह के नाम से जाना जाता है?)",
+    "options": ["Mars (मंगल)", "Earth (पृथ्वी)", "Venus (शुक्र)", "Jupiter (बृहस्पति)"],
+    "answer": "Mars (मंगल)"
+  },
+  {
+    "id": 3,
+    "question": "What is the largest organ in the human body? (मानव शरीर का सबसे बड़ा अंग कौन सा है?)",
+    "options": ["Skin (त्वचा)", "Heart (हृदय)", "Liver (यकृत)", "Lungs (फेफड़े)"],
+    "answer": "Skin (त्वचा)"
+  },
+  {
+    "id": 4,
+    "question": "Which gas do plants absorb during photosynthesis? (पौधे प्रकाश संश्लेषण के दौरान कौन सी गैस अवशोषित करते हैं?)",
+    "options": ["Carbon dioxide (कार्बन डाइऑक्साइड)", "Oxygen (ऑक्सीजन)", "Nitrogen (नाइट्रोजन)", "Hydrogen (हाइड्रोजन)"],
+    "answer": "Carbon dioxide (कार्बन डाइऑक्साइड)"
+  },
+  {
+    "id": 5,
+    "question": "What part of the plant conducts photosynthesis? (पौधे का कौन सा भाग प्रकाश संश्लेषण करता है?)",
+    "options": ["Leaf (पत्ता)", "Root (जड़)", "Stem (तना)", "Flower (फूल)"],
+    "answer": "Leaf (पत्ता)"
+  },
+  {
+    "id": 6,
+    "question": "Which is the hardest natural substance on Earth? (पृथ्वी पर सबसे कठोर प्राकृतिक पदार्थ कौन सा है?)",
+    "options": ["Diamond (हीरा)", "Gold (सोना)", "Iron (लोहा)", "Platinum (प्लेटिनम)"],
+    "answer": "Diamond (हीरा)"
+  },
+  {
+    "id": 7,
+    "question": "What is the boiling point of water? (पानी का क्वथनांक क्या है?)",
+    "options": ["100°C (100 डिग्री सेल्सियस)", "0°C (0 डिग्री सेल्सियस)", "50°C (50 डिग्री सेल्सियस)", "200°C (200 डिग्री सेल्सियस)"],
+    "answer": "100°C (100 डिग्री सेल्सियस)"
+  },
+  {
+    "id": 8,
+    "question": "Which vitamin is produced by sunlight in our body? (सूर्य के प्रकाश से हमारे शरीर में कौन सा विटामिन बनता है?)",
+    "options": ["Vitamin D (विटामिन D)", "Vitamin C (विटामिन C)", "Vitamin A (विटामिन A)", "Vitamin B12 (विटामिन B12)"],
+    "answer": "Vitamin D (विटामिन D)"
+  },
+  {
+    "id": 9,
+    "question": "Which part of the human brain controls balance? (मानव मस्तिष्क का कौन सा भाग संतुलन को नियंत्रित करता है?)",
+    "options": ["Cerebellum (अनुलंबिका)", "Cerebrum (मस्तिष्कमंडल)", "Medulla (मेदुला)", "Pons (पॉन्स)"],
+    "answer": "Cerebellum (अनुलंबिका)"
+  },
+  {
+    "id": 10,
+    "question": "Which metal is used in making thermometers? (थर्मामीटर बनाने में कौन सी धातु का उपयोग होता है?)",
+    "options": ["Mercury (पारा)", "Copper (तांबा)", "Iron (लोहा)", "Silver (चांदी)"],
+    "answer": "Mercury (पारा)"
+  },
+  {
+    "id": 11,
+    "question": "What is the center of our Solar System? (हमारे सौरमंडल का केंद्र क्या है?)",
+    "options": ["Sun (सूर्य)", "Earth (पृथ्वी)", "Moon (चंद्रमा)", "Jupiter (बृहस्पति)"],
+    "answer": "Sun (सूर्य)"
+  },
+  {
+    "id": 12,
+    "question": "Which part of the cell contains genetic material? (कोशिका का कौन सा भाग आनुवंशिक पदार्थ रखता है?)",
+    "options": ["Nucleus (नाभिक)", "Cytoplasm (प्रोटोप्लाज्म)", "Cell wall (कोशिका भित्ति)", "Ribosome (राइबोसोम)"],
+    "answer": "Nucleus (नाभिक)"
+  },
+  {
+    "id": 13,
+    "question": "What is HCl commonly known as? (HCl को आमतौर पर क्या कहा जाता है?)",
+    "options": ["Hydrochloric acid (हाइड्रोक्लोरिक अम्ल)", "Sulfuric acid (सल्फ्यूरिक अम्ल)", "Nitric acid (नाइट्रिक अम्ल)", "Acetic acid (एसिटिक अम्ल)"],
+    "answer": "Hydrochloric acid (हाइड्रोक्लोरिक अम्ल)"
+  },
+  {
+    "id": 14,
+    "question": "Which planet is closest to the Sun? (सूर्य के सबसे निकट कौन सा ग्रह है?)",
+    "options": ["Mercury (बुध)", "Venus (शुक्र)", "Earth (पृथ्वी)", "Mars (मंगल)"],
+    "answer": "Mercury (बुध)"
+  },
+  {
+    "id": 15,
+    "question": "Which blood cells help in clotting? (कौन सी रक्त कोशिकाएँ थक्का बनाने में मदद करती हैं?)",
+    "options": ["Platelets (रक्त प्लेटलेट्स)", "Red blood cells (लाल रक्त कोशिकाएँ)", "White blood cells (श्वेत रक्त कोशिकाएँ)", "Plasma (प्लाज्मा)"],
+    "answer": "Platelets (रक्त प्लेटलेट्स)"
+  },
+  {
+    "id": 16,
+    "question": "What gas is essential for respiration? (श्वसन के लिए कौन सी गैस आवश्यक है?)",
+    "options": ["Oxygen (ऑक्सीजन)", "Nitrogen (नाइट्रोजन)", "Carbon dioxide (कार्बन डाइऑक्साइड)", "Hydrogen (हाइड्रोजन)"],
+    "answer": "Oxygen (ऑक्सीजन)"
+  },
+  {
+    "id": 17,
+    "question": "What is the main function of the heart? (हृदय का मुख्य कार्य क्या है?)",
+    "options": ["To pump blood (रक्त पंप करना)", "To digest food (भोजन पचाना)", "To produce oxygen (ऑक्सीजन बनाना)", "To filter blood (रक्त को छानना)"],
+    "answer": "To pump blood (रक्त पंप करना)"
+  },
+  {
+    "id": 18,
+    "question": "Which organ purifies blood in humans? (मानव शरीर में कौन सा अंग रक्त को शुद्ध करता है?)",
+    "options": ["Kidney (गुर्दा)", "Liver (यकृत)", "Heart (हृदय)", "Lungs (फेफड़े)"],
+    "answer": "Kidney (गुर्दा)"
+  },
+  {
+    "id": 19,
+    "question": "What is the speed of light? (प्रकाश की गति क्या है?)",
+    "options": ["3 × 10⁸ m/s (तीन गुणा दस की आठवीं मीटर प्रति सेकंड)", "300 m/s", "1500 m/s", "3 × 10⁶ m/s"],
+    "answer": "3 × 10⁸ m/s (तीन गुणा दस की आठवीं मीटर प्रति सेकंड)"
+  },
+  {
+    "id": 20,
+    "question": "Which planet has the largest number of moons? (किस ग्रह के सबसे अधिक उपग्रह हैं?)",
+    "options": ["Saturn (शनि)", "Jupiter (बृहस्पति)", "Uranus (अरुण)", "Earth (पृथ्वी)"],
+    "answer": "Saturn (शनि)"
+  },
+  {
+    "id": 21,
+    "question": "What is the unit of force? (बल की इकाई क्या है?)",
+    "options": ["Newton (न्यूटन)", "Joule (जूल)", "Watt (वाट)", "Pascal (पास्कल)"],
+    "answer": "Newton (न्यूटन)"
+  },
+  {
+    "id": 22,
+    "question": "Which device is used to measure temperature? (तापमान मापने के लिए कौन सा उपकरण प्रयोग किया जाता है?)",
+    "options": ["Thermometer (थर्मामीटर)", "Barometer (बैरोमीटर)", "Hygrometer (हाइग्रोमीटर)", "Manometer (मैनोमीटर)"],
+    "answer": "Thermometer (थर्मामीटर)"
+  },
+  {
+    "id": 23,
+    "question": "Which part of the eye controls the amount of light entering? (आंख का कौन सा भाग प्रकाश की मात्रा नियंत्रित करता है?)",
+    "options": ["Iris (पुतली)", "Lens (लेंस)", "Retina (रेटिना)", "Cornea (कॉर्निया)"],
+    "answer": "Iris (पुतली)"
+  },
+  {
+    "id": 24,
+    "question": "Which organ controls the human body? (मानव शरीर को कौन नियंत्रित करता है?)",
+    "options": ["Brain (मस्तिष्क)", "Heart (हृदय)", "Lungs (फेफड़े)", "Liver (यकृत)"],
+    "answer": "Brain (मस्तिष्क)"
+  },
+  {
+    "id": 25,
+    "question": "Which element is needed for the formation of bones and teeth? (हड्डियों और दांतों के निर्माण के लिए कौन सा तत्व आवश्यक है?)",
+    "options": ["Calcium (कैल्शियम)", "Iron (लोहा)", "Sodium (सोडियम)", "Zinc (जिंक)"],
+    "answer": "Calcium (कैल्शियम)"
+  },
+  {
+    "id": 26,
+    "question": "What is the smallest unit of matter? (पदार्थ की सबसे छोटी इकाई क्या है?)",
+    "options": ["Atom (परमाणु)", "Molecule (अणु)", "Cell (कोशिका)", "Proton (प्रोटॉन)"],
+    "answer": "Atom (परमाणु)"
+  },
+  {
+    "id": 27,
+    "question": "Which organ helps in breathing? (श्वसन में कौन सा अंग मदद करता है?)",
+    "options": ["Lungs (फेफड़े)", "Heart (हृदय)", "Brain (मस्तिष्क)", "Kidney (गुर्दा)"],
+    "answer": "Lungs (फेफड़े)"
+  },
+  {
+    "id": 28,
+    "question": "What is the process of water changing into vapor called? (पानी के वाष्प में बदलने की प्रक्रिया को क्या कहते हैं?)",
+    "options": ["Evaporation (वाष्पीकरण)", "Condensation (संघनन)", "Precipitation (वर्षण)", "Sublimation (उर्ध्वपातन)"],
+    "answer": "Evaporation (वाष्पीकरण)"
+  },
+  {
+    "id": 29,
+    "question": "Which energy is obtained from sunlight? (सूर्य के प्रकाश से कौन सी ऊर्जा प्राप्त होती है?)",
+    "options": ["Solar energy (सौर ऊर्जा)", "Nuclear energy (परमाणु ऊर्जा)", "Thermal energy (ऊष्मा ऊर्जा)", "Wind energy (पवन ऊर्जा)"],
+    "answer": "Solar energy (सौर ऊर्जा)"
+  },
+  {
+    "id": 30,
+    "question": "Which organ stores bile in the human body? (मानव शरीर में पित्त किस अंग में संग्रहित होता है?)",
+    "options": ["Gall bladder (पित्ताशय)", "Liver (यकृत)", "Pancreas (अग्न्याशय)", "Stomach (पेट)"],
+    "answer": "Gall bladder (पित्ताशय)"
+  },
+  {
+    "id": 31,
+    "question": "Which gas is used by plants for respiration at night? (पौधे रात में श्वसन के लिए कौन सी गैस का उपयोग करते हैं?)",
+    "options": ["Oxygen (ऑक्सीजन)", "Carbon dioxide (कार्बन डाइऑक्साइड)", "Nitrogen (नाइट्रोजन)", "Hydrogen (हाइड्रोजन)"],
+    "answer": "Oxygen (ऑक्सीजन)"
+  },
+  {
+    "id": 32,
+    "question": "Which part of the human skeleton protects the brain? (मानव कंकाल का कौन सा भाग मस्तिष्क की रक्षा करता है?)",
+    "options": ["Skull (खोपड़ी)", "Rib cage (पसलियों का पिंजरा)", "Spine (रीढ़ की हड्डी)", "Pelvis (श्रोणि)"],
+    "answer": "Skull (खोपड़ी)"
+  },
+  {
+    "id": 33,
+    "question": "What type of energy is possessed by a moving object? (गतिशील वस्तु के पास कौन सी ऊर्जा होती है?)",
+    "options": ["Kinetic energy (गतिज ऊर्जा)", "Potential energy (स्थितिज ऊर्जा)", "Solar energy (सौर ऊर्जा)", "Heat energy (ऊष्मा ऊर्जा)"],
+    "answer": "Kinetic energy (गतिज ऊर्जा)"
+  },
+  {
+    "id": 34,
+    "question": "Which planet is known as Earth's twin? (पृथ्वी की जुड़वां कहलाने वाला ग्रह कौन सा है?)",
+    "options": ["Venus (शुक्र)", "Mars (मंगल)", "Mercury (बुध)", "Neptune (वरुण)"],
+    "answer": "Venus (शुक्र)"
+  },
+  {
+    "id": 35,
+    "question": "Which scientist proposed the theory of relativity? (सापेक्षता का सिद्धांत किसने दिया?)",
+    "options": ["Albert Einstein (आइंस्टीन)", "Newton (न्यूटन)", "Galileo (गैलीलियो)", "Darwin (डार्विन)"],
+    "answer": "Albert Einstein (आइंस्टीन)"
+  },
+  {
+    "id": 36,
+    "question": "Which element is found the most in Earth's crust? (पृथ्वी की पर्पटी में सबसे अधिक कौन सा तत्व पाया जाता है?)",
+    "options": ["Oxygen (ऑक्सीजन)", "Iron (लोहा)", "Silicon (सिलिकॉन)", "Aluminium (एल्यूमिनियम)"],
+    "answer": "Oxygen (ऑक्सीजन)"
+  },
+  {
+    "id": 37,
+    "question": "What is the freezing point of water? (पानी का जमने का बिंदु क्या है?)",
+    "options": ["0°C (0 डिग्री सेल्सियस)", "100°C (100 डिग्री सेल्सियस)", "10°C (10 डिग्री सेल्सियस)", "50°C (50 डिग्री सेल्सियस)"],
+    "answer": "0°C (0 डिग्री सेल्सियस)"
+  },
+  {
+    "id": 38,
+    "question": "Which gas is used in fire extinguishers? (अग्निशामक में कौन सी गैस प्रयोग की जाती है?)",
+    "options": ["Carbon dioxide (कार्बन डाइऑक्साइड)", "Oxygen (ऑक्सीजन)", "Hydrogen (हाइड्रोजन)", "Nitrogen (नाइट्रोजन)"],
+    "answer": "Carbon dioxide (कार्बन डाइऑक्साइड)"
+  },
+  {
+    "id": 39,
+    "question": "Which planet has the longest day? (किस ग्रह का दिन सबसे लंबा होता है?)",
+    "options": ["Venus (शुक्र)", "Mars (मंगल)", "Earth (पृथ्वी)", "Jupiter (बृहस्पति)"],
+    "answer": "Venus (शुक्र)"
+  },
+  {
+    "id": 40,
+    "question": "Which is the smallest bone in the human body? (मानव शरीर की सबसे छोटी हड्डी कौन सी है?)",
+    "options": ["Stapes (कान की हड्डी)", "Femur (जांघ की हड्डी)", "Tibia (टिबिया)", "Radius (रेडियस)"],
+    "answer": "Stapes (कान की हड्डी)"
+  },
+  {
+    "id": 41,
+    "question": "Which metal is liquid at room temperature? (कौन सी धातु कमरे के तापमान पर द्रव होती है?)",
+    "options": ["Mercury (पारा)", "Iron (लोहा)", "Copper (तांबा)", "Zinc (जिंक)"],
+    "answer": "Mercury (पारा)"
+  },
+  {
+    "id": 42,
+    "question": "Which is the largest planet in the Solar System? (सौरमंडल का सबसे बड़ा ग्रह कौन सा है?)",
+    "options": ["Jupiter (बृहस्पति)", "Saturn (शनि)", "Uranus (अरुण)", "Neptune (वरुण)"],
+    "answer": "Jupiter (बृहस्पति)"
+  },
+  {
+    "id": 43,
+    "question": "What is the unit of electrical resistance? (वैद्युत प्रतिरोध की इकाई क्या है?)",
+    "options": ["Ohm (ओम)", "Ampere (एम्पीयर)", "Volt (वोल्ट)", "Watt (वाट)"],
+    "answer": "Ohm (ओम)"
+  },
+  {
+    "id": 44,
+    "question": "Which organ produces insulin in the human body? (मानव शरीर में इंसुलिन कौन सा अंग बनाता है?)",
+    "options": ["Pancreas (अग्न्याशय)", "Liver (यकृत)", "Kidney (गुर्दा)", "Heart (हृदय)"],
+    "answer": "Pancreas (अग्न्याशय)"
+  },
+  {
+    "id": 45,
+    "question": "Which planet is farthest from the Sun? (सूर्य से सबसे दूर कौन सा ग्रह है?)",
+    "options": ["Neptune (वरुण)", "Uranus (अरुण)", "Saturn (शनि)", "Jupiter (बृहस्पति)"],
+    "answer": "Neptune (वरुण)"
+  },
+  {
+    "id": 46,
+    "question": "What is the SI unit of energy? (ऊर्जा की एस.आई. इकाई क्या है?)",
+    "options": ["Joule (जूल)", "Watt (वाट)", "Newton (न्यूटन)", "Calorie (कैलोरी)"],
+    "answer": "Joule (जूल)"
+  },
+  {
+    "id": 47,
+    "question": "What type of mirror is used in vehicles to see the rear view? (वाहनों में पीछे देखने के लिए किस दर्पण का उपयोग होता है?)",
+    "options": ["Convex mirror (उत्तल दर्पण)", "Concave mirror (अवतल दर्पण)", "Plane mirror (समतल दर्पण)", "Spherical mirror (गोलाकार दर्पण)"],
+    "answer": "Convex mirror (उत्तल दर्पण)"
+  },
+  {
+    "id": 48,
+    "question": "Which part of the plant absorbs water from the soil? (पौधे का कौन सा भाग मिट्टी से पानी अवशोषित करता है?)",
+    "options": ["Root (जड़)", "Stem (तना)", "Leaf (पत्ता)", "Flower (फूल)"],
+    "answer": "Root (जड़)"
+  },
+  {
+    "id": 49,
+    "question": "Which organ is responsible for pumping blood? (रक्त पंप करने का कार्य कौन सा अंग करता है?)",
+    "options": ["Heart (हृदय)", "Liver (यकृत)", "Lungs (फेफड़े)", "Kidney (गुर्दा)"],
+    "answer": "Heart (हृदय)"
+  },
+  {
+    "id": 50,
+    "question": "What is the process of conversion of solid directly into gas called? (ठोस के सीधे गैस में बदलने की प्रक्रिया को क्या कहते हैं?)",
+    "options": ["Sublimation (उर्ध्वपातन)", "Evaporation (वाष्पीकरण)", "Condensation (संघनन)", "Fusion (गलन)"],
+    "answer": "Sublimation (उर्ध्वपातन)"
+  }
+]
+  
+   
