@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "question": "What is the main objective of business? / व्यापार का मुख्य उद्देश्य क्या है?",
+    "options": ["Profit earning / लाभ कमाना", "Employment / रोजगार", "Charity / दान", "Service / सेवा"],
+    "answer": "Profit earning / लाभ कमाना"
+  },
+  {
+    "id": 2,
+    "question": "Who is known as the father of modern economics? / आधुनिक अर्थशास्त्र के जनक कौन हैं?",
+    "options": ["Karl Marx / कार्ल मार्क्स", "Adam Smith / एडम स्मिथ", "John Keynes / जॉन केन्स", "Milton Friedman / मिल्टन फ्रीडमैन"],
+    "answer": "Adam Smith / एडम स्मिथ"
+  },
+  {
+    "id": 3,
+    "question": "What does GDP stand for? / GDP का पूर्ण रूप क्या है?",
+    "options": ["Gross Domestic Product / सकल घरेलू उत्पाद", "Global Development Plan / वैश्विक विकास योजना", "Government Data Policy / सरकारी डेटा नीति", "Gross Domestic Profit / सकल घरेलू लाभ"],
+    "answer": "Gross Domestic Product / सकल घरेलू उत्पाद"
+  },
+  {
+    "id": 4,
+    "question": "What is the full form of GST? / GST का पूरा नाम क्या है?",
+    "options": ["Goods and Services Tax / वस्तु एवं सेवा कर", "General Sales Tax / सामान्य बिक्री कर", "Government Service Tax / सरकारी सेवा कर", "Global Sales Tax / वैश्विक बिक्री कर"],
+    "answer": "Goods and Services Tax / वस्तु एवं सेवा कर"
+  },
+  {
+    "id": 5,
+    "question": "Which of the following is not a type of business organization? / निम्नलिखित में से कौन-सा व्यापार संगठन का प्रकार नहीं है?",
+    "options": ["Sole Proprietorship / एकल स्वामित्व", "Partnership / साझेदारी", "Corporation / निगम", "Committee / समिति"],
+    "answer": "Committee / समिति"
+  },
+  {
+    "id": 6,
+    "question": "Balance Sheet shows / बैलेंस शीट क्या दिखाती है?",
+    "options": ["Assets and Liabilities / परिसंपत्तियाँ और देनदारियाँ", "Income only / केवल आय", "Expenses only / केवल व्यय", "Profit only / केवल लाभ"],
+    "answer": "Assets and Liabilities / परिसंपत्तियाँ और देनदारियाँ"
+  },
+  {
+    "id": 7,
+    "question": "Which is an example of a fixed asset? / स्थायी संपत्ति का उदाहरण कौन-सा है?",
+    "options": ["Machinery / मशीनरी", "Cash / नकद", "Inventory / भंडार", "Accounts Receivable / प्राप्य खाते"],
+    "answer": "Machinery / मशीनरी"
+  },
+  {
+    "id": 8,
+    "question": "What is the meaning of 'Liability'? / 'Liability' का अर्थ क्या है?",
+    "options": ["Debt owed by business / व्यवसाय द्वारा लिया गया ऋण", "Income / आय", "Asset / संपत्ति", "Profit / लाभ"],
+    "answer": "Debt owed by business / व्यवसाय द्वारा लिया गया ऋण"
+  },
+  {
+    "id": 9,
+    "question": "Which accounting principle assumes business and owner are separate? / कौन-सा लेखा सिद्धांत व्यवसाय और मालिक को अलग मानता है?",
+    "options": ["Going Concern / सततता सिद्धांत", "Entity Concept / इकाई सिद्धांत", "Consistency / स्थिरता", "Conservatism / सतर्कता"],
+    "answer": "Entity Concept / इकाई सिद्धांत"
+  },
+  {
+    "id": 10,
+    "question": "Which of the following is a current asset? / निम्नलिखित में से कौन-सी चालू संपत्ति है?",
+    "options": ["Cash / नकद", "Building / भवन", "Machinery / मशीनरी", "Land / भूमि"],
+    "answer": "Cash / नकद"
+  },
+  {
+    "id": 11,
+    "question": "Who prepares the Balance Sheet? / बैलेंस शीट कौन तैयार करता है?",
+    "options": ["Accountant / लेखाकार", "Auditor / लेखा परीक्षक", "Manager / प्रबंधक", "Banker / बैंकर"],
+    "answer": "Accountant / लेखाकार"
+  },
+  {
+    "id": 12,
+    "question": "In accounting, 'Debit' means / लेखांकन में 'डेबिट' का अर्थ है",
+    "options": ["Left side / बाईं ओर", "Right side / दाईं ओर", "Profit / लाभ", "Loss / हानि"],
+    "answer": "Left side / बाईं ओर"
+  },
+  {
+    "id": 13,
+    "question": "What is a 'Ledger'? / 'लेजर' क्या है?",
+    "options": ["Book of Final Entries / अंतिम प्रविष्टियों की पुस्तक", "Book of Original Entries / प्रारंभिक प्रविष्टियों की पुस्तक", "Trial Balance / ट्रायल बैलेंस", "Cash Book / नकद पुस्तक"],
+    "answer": "Book of Final Entries / अंतिम प्रविष्टियों की पुस्तक"
+  },
+  {
+    "id": 14,
+    "question": "Who audits company accounts? / कंपनी के खातों का ऑडिट कौन करता है?",
+    "options": ["Auditor / लेखा परीक्षक", "Accountant / लेखाकार", "Manager / प्रबंधक", "Director / निदेशक"],
+    "answer": "Auditor / लेखा परीक्षक"
+  },
+  {
+    "id": 15,
+    "question": "Which tax is indirect in nature? / कौन-सा कर अप्रत्यक्ष होता है?",
+    "options": ["GST / वस्तु एवं सेवा कर", "Income Tax / आयकर", "Wealth Tax / संपत्ति कर", "Property Tax / संपत्ति कर"],
+    "answer": "GST / वस्तु एवं सेवा कर"
+  },
+  {
+    "id": 16,
+    "question": "Which statement shows profit or loss? / कौन-सा विवरण लाभ या हानि दिखाता है?",
+    "options": ["Income Statement / आय विवरण", "Cash Flow / नकदी प्रवाह", "Trial Balance / ट्रायल बैलेंस", "Ledger / लेजर"],
+    "answer": "Income Statement / आय विवरण"
+  },
+  {
+    "id": 17,
+    "question": "Double Entry System was introduced by / दोहरी लेखा प्रणाली की शुरुआत किसने की?",
+    "options": ["Luca Pacioli / लूका पाशिओली", "Adam Smith / एडम स्मिथ", "John Keynes / जॉन केन्स", "Karl Marx / कार्ल मार्क्स"],
+    "answer": "Luca Pacioli / लूका पाशिओली"
+  },
+  {
+    "id": 18,
+    "question": "Capital + Liabilities = ? / पूंजी + देनदारियाँ = ?",
+    "options": ["Assets / परिसंपत्तियाँ", "Expenses / व्यय", "Income / आय", "Cash / नकद"],
+    "answer": "Assets / परिसंपत्तियाँ"
+  },
+  {
+    "id": 19,
+    "question": "Which account is a personal account? / कौन-सा खाता व्यक्तिगत खाता है?",
+    "options": ["Debtors / देनदार", "Sales / बिक्री", "Rent / किराया", "Wages / मजदूरी"],
+    "answer": "Debtors / देनदार"
+  },
+  {
+    "id": 20,
+    "question": "Which is the oldest form of business? / व्यापार का सबसे पुराना रूप कौन-सा है?",
+    "options": ["Sole Proprietorship / एकल स्वामित्व", "Partnership / साझेदारी", "Company / कंपनी", "Co-operative Society / सहकारी संस्था"],
+    "answer": "Sole Proprietorship / एकल स्वामित्व"
+  }, 
+  {
+    "id": 21,
+    "question": "What is the meaning of 'Capital'? / 'Capital' का अर्थ क्या है?",
+    "options": ["Money invested by owner / मालिक द्वारा निवेशित धन", "Profit / लाभ", "Expense / व्यय", "Loan / ऋण"],
+    "answer": "Money invested by owner / मालिक द्वारा निवेशित धन"
+  },
+  {
+    "id": 22,
+    "question": "Which document is used to record credit sales? / उधार बिक्री को दर्ज करने के लिए कौन-सा दस्तावेज़ उपयोग होता है?",
+    "options": ["Invoice / चालान", "Receipt / रसीद", "Voucher / वाउचर", "Bill of Exchange / विनिमय बिल"],
+    "answer": "Invoice / चालान"
+  },
+  {
+    "id": 23,
+    "question": "Depreciation is charged on which asset? / मूल्यह्रास किस संपत्ति पर लगाया जाता है?",
+    "options": ["Fixed Asset / स्थायी संपत्ति", "Current Asset / चालू संपत्ति", "Intangible Asset / अमूर्त संपत्ति", "Inventory / भंडार"],
+    "answer": "Fixed Asset / स्थायी संपत्ति"
+  },
+  {
+    "id": 24,
+    "question": "Which is an example of intangible asset? / अमूर्त संपत्ति का उदाहरण कौन-सा है?",
+    "options": ["Goodwill / साख", "Building / भवन", "Machinery / मशीनरी", "Furniture / फर्नीचर"],
+    "answer": "Goodwill / साख"
+  },
+  {
+    "id": 25,
+    "question": "Which account records cash receipts and payments? / कौन-सा खाता नकद प्राप्ति और भुगतान को दर्ज करता है?",
+    "options": ["Cash Book / नकद पुस्तक", "Ledger / लेजर", "Journal / जर्नल", "Trial Balance / ट्रायल बैलेंस"],
+    "answer": "Cash Book / नकद पुस्तक"
+  },
+  {
+    "id": 26,
+    "question": "What is the formula of Accounting Equation? / लेखांकन समीकरण का सूत्र क्या है?",
+    "options": ["Assets = Liabilities + Capital / परिसंपत्तियाँ = देनदारियाँ + पूंजी", "Assets = Income + Expense / परिसंपत्तियाँ = आय + व्यय", "Capital = Assets + Profit / पूंजी = परिसंपत्तियाँ + लाभ", "Liabilities = Assets + Profit / देनदारियाँ = परिसंपत्तियाँ + लाभ"],
+    "answer": "Assets = Liabilities + Capital / परिसंपत्तियाँ = देनदारियाँ + पूंजी"
+  },
+  {
+    "id": 27,
+    "question": "What is the main objective of financial accounting? / वित्तीय लेखांकन का मुख्य उद्देश्य क्या है?",
+    "options": ["To find out profit or loss / लाभ या हानि जानना", "To calculate tax / कर की गणना करना", "To find cost of production / उत्पादन लागत जानना", "To increase sales / बिक्री बढ़ाना"],
+    "answer": "To find out profit or loss / लाभ या हानि जानना"
+  },
+  {
+    "id": 28,
+    "question": "Which account shows the position of business on a particular date? / कौन-सा खाता किसी विशेष तिथि पर व्यवसाय की स्थिति दिखाता है?",
+    "options": ["Balance Sheet / बैलेंस शीट", "Cash Book / नकद पुस्तक", "Ledger / लेजर", "Journal / जर्नल"],
+    "answer": "Balance Sheet / बैलेंस शीट"
+  },
+  {
+    "id": 29,
+    "question": "Which term represents money owed to the business? / वह शब्द क्या है जो व्यवसाय को बकाया धन को दर्शाता है?",
+    "options": ["Debtors / देनदार", "Creditors / लेनदार", "Expenses / व्यय", "Revenue / राजस्व"],
+    "answer": "Debtors / देनदार"
+  },
+  {
+    "id": 30,
+    "question": "Which document acts as proof of business transactions? / कौन-सा दस्तावेज़ व्यापारिक लेनदेन का प्रमाण होता है?",
+    "options": ["Voucher / वाउचर", "Ledger / लेजर", "Journal / जर्नल", "Invoice / चालान"],
+    "answer": "Voucher / वाउचर"
+  },
+  {
+    "id": 31,
+    "question": "Outstanding expenses are shown as / बकाया खर्चे कैसे दिखाए जाते हैं?",
+    "options": ["Liability / देनदारी", "Asset / संपत्ति", "Income / आय", "Expense / व्यय"],
+    "answer": "Liability / देनदारी"
+  },
+  {
+    "id": 32,
+    "question": "Which type of account is 'Rent Paid'? / 'Rent Paid' किस प्रकार का खाता है?",
+    "options": ["Nominal Account / नाममात्र खाता", "Personal Account / व्यक्तिगत खाता", "Real Account / वास्तविक खाता", "Fixed Account / स्थायी खाता"],
+    "answer": "Nominal Account / नाममात्र खाता"
+  },
+  {
+    "id": 33,
+    "question": "Prepaid expenses are considered as / अग्रिम खर्चों को किस रूप में माना जाता है?",
+    "options": ["Asset / संपत्ति", "Liability / देनदारी", "Expense / व्यय", "Income / आय"],
+    "answer": "Asset / संपत्ति"
+  },
+  {
+    "id": 34,
+    "question": "Which financial statement shows cash inflow and outflow? / कौन-सा वित्तीय विवरण नकदी के आगमन और बहिर्गमन को दिखाता है?",
+    "options": ["Cash Flow Statement / नकदी प्रवाह विवरण", "Balance Sheet / बैलेंस शीट", "Trial Balance / ट्रायल बैलेंस", "Ledger / लेजर"],
+    "answer": "Cash Flow Statement / नकदी प्रवाह विवरण"
+  },
+  {
+    "id": 35,
+    "question": "Which principle means 'anticipate no profit but provide for all losses'? / कौन-सा सिद्धांत कहता है 'लाभ की आशा मत करो लेकिन हानि की तैयारी करो'?",
+    "options": ["Conservatism / सतर्कता", "Consistency / स्थिरता", "Going Concern / सततता", "Accrual / उपार्जन"],
+    "answer": "Conservatism / सतर्कता"
+  },
+  {
+    "id": 36,
+    "question": "Which account records all credit purchases? / कौन-सा खाता सभी उधार खरीद को दर्ज करता है?",
+    "options": ["Purchase Book / खरीद पुस्तक", "Sales Book / बिक्री पुस्तक", "Journal / जर्नल", "Ledger / लेजर"],
+    "answer": "Purchase Book / खरीद पुस्तक"
+  },
+  {
+    "id": 37,
+    "question": "Goodwill is / गुडविल क्या है?",
+    "options": ["Intangible Asset / अमूर्त संपत्ति", "Tangible Asset / मूर्त संपत्ति", "Current Liability / चालू देनदारी", "Expense / व्यय"],
+    "answer": "Intangible Asset / अमूर्त संपत्ति"
+  },
+  {
+    "id": 38,
+    "question": "Which type of account is 'Bank Account'? / 'बैंक खाता' किस प्रकार का खाता है?",
+    "options": ["Personal Account / व्यक्तिगत खाता", "Real Account / वास्तविक खाता", "Nominal Account / नाममात्र खाता", "Temporary Account / अस्थायी खाता"],
+    "answer": "Personal Account / व्यक्तिगत खाता"
+  },
+  {
+    "id": 39,
+    "question": "Sales Return is also called / बिक्री वापसी को और क्या कहा जाता है?",
+    "options": ["Return Inward / अंदर वापसी", "Return Outward / बाहर वापसी", "Credit Return / ऋण वापसी", "Debit Return / डेबिट वापसी"],
+    "answer": "Return Inward / अंदर वापसी"
+  },
+  {
+    "id": 40,
+    "question": "Purchase Return is also known as / खरीद वापसी को और क्या कहा जाता है?",
+    "options": ["Return Outward / बाहर वापसी", "Return Inward / अंदर वापसी", "Debit Return / डेबिट वापसी", "Credit Return / ऋण वापसी"],
+    "answer": "Return Outward / बाहर वापसी"
+  },
+  {
+    "id": 41,
+    "question": "Which of the following is an example of current liability? / निम्नलिखित में से कौन चालू देनदारी का उदाहरण है?",
+    "options": ["Creditors / लेनदार", "Building / भवन", "Machinery / मशीनरी", "Goodwill / साख"],
+    "answer": "Creditors / लेनदार"
+  },
+  {
+    "id": 42,
+    "question": "Revenue is also called / राजस्व को और क्या कहा जाता है?",
+    "options": ["Income / आय", "Expense / व्यय", "Liability / देनदारी", "Capital / पूंजी"],
+    "answer": "Income / आय"
+  },
+  {
+    "id": 43,
+    "question": "Who are the owners of a company? / कंपनी के मालिक कौन होते हैं?",
+    "options": ["Shareholders / शेयरधारक", "Directors / निदेशक", "Managers / प्रबंधक", "Auditors / लेखा परीक्षक"],
+    "answer": "Shareholders / शेयरधारक"
+  },
+  {
+    "id": 44,
+    "question": "What is 'Drawings'? / 'Drawings' का क्या अर्थ है?",
+    "options": ["Money withdrawn by owner / मालिक द्वारा निकाला गया धन", "Business income / व्यवसाय की आय", "Business profit / व्यवसाय का लाभ", "Business loss / व्यवसाय की हानि"],
+    "answer": "Money withdrawn by owner / मालिक द्वारा निकाला गया धन"
+  },
+  {
+    "id": 45,
+    "question": "Trade discount is given at the time of / व्यापारिक छूट कब दी जाती है?",
+    "options": ["Sale / बिक्री", "Payment / भुगतान", "Delivery / वितरण", "Purchase return / खरीद वापसी"],
+    "answer": "Sale / बिक्री"
+  },
+  {
+    "id": 46,
+    "question": "Which account records all credit sales? / कौन-सा खाता सभी उधार बिक्री को दर्ज करता है?",
+    "options": ["Sales Book / बिक्री पुस्तक", "Cash Book / नकद पुस्तक", "Journal / जर्नल", "Ledger / लेजर"],
+    "answer": "Sales Book / बिक्री पुस्तक"
+  },
+  {
+    "id": 47,
+    "question": "Which statement shows financial performance of business? / कौन-सा विवरण व्यवसाय के वित्तीय प्रदर्शन को दर्शाता है?",
+    "options": ["Profit and Loss Account / लाभ और हानि खाता", "Balance Sheet / बैलेंस शीट", "Cash Book / नकद पुस्तक", "Journal / जर्नल"],
+    "answer": "Profit and Loss Account / लाभ और हानि खाता"
+  },
+  {
+    "id": 48,
+    "question": "Bank overdraft is / बैंक ओवरड्राफ्ट क्या है?",
+    "options": ["Liability / देनदारी", "Asset / संपत्ति", "Income / आय", "Expense / व्यय"],
+    "answer": "Liability / देनदारी"
+  },
+  {
+    "id": 49,
+    "question": "Which statement shows assets, liabilities and capital? / कौन-सा विवरण परिसंपत्तियाँ, देनदारियाँ और पूंजी दिखाता है?",
+    "options": ["Balance Sheet / बैलेंस शीट", "Cash Flow / नकदी प्रवाह", "Ledger / लेजर", "Trial Balance / ट्रायल बैलेंस"],
+    "answer": "Balance Sheet / बैलेंस शीट"
+  },
+  {
+    "id": 50,
+    "question": "Which expense is considered indirect? / कौन-सा खर्च अप्रत्यक्ष माना जाता है?",
+    "options": ["Rent / किराया", "Wages / मजदूरी", "Raw Material / कच्चा माल", "Freight / भाड़ा"],
+    "answer": "Rent / किराया"
+  }, 
+  {
+    "id": 51,
+    "question": "What is the full form of GST? / GST का पूरा नाम क्या है?",
+    "options": ["Goods and Services Tax / वस्तु और सेवा कर", "General Sales Tax / सामान्य बिक्री कर", "Global Service Tax / वैश्विक सेवा कर", "Government Sales Tax / सरकारी बिक्री कर"],
+    "answer": "Goods and Services Tax / वस्तु और सेवा कर"
+  },
+  {
+    "id": 52,
+    "question": "Which of the following is a source of revenue for government? / निम्नलिखित में से कौन सरकार के राजस्व का स्रोत है?",
+    "options": ["Taxes / कर", "Subsidy / सब्सिडी", "Grants / अनुदान", "Loan / ऋण"],
+    "answer": "Taxes / कर"
+  },
+  {
+    "id": 53,
+    "question": "What is the term for debts payable after one year? / एक वर्ष के बाद देय ऋणों को क्या कहा जाता है?",
+    "options": ["Long-term Liabilities / दीर्घकालिक देनदारियाँ", "Current Liabilities / चालू देनदारियाँ", "Fixed Assets / स्थायी संपत्ति", "Intangible Assets / अमूर्त संपत्ति"],
+    "answer": "Long-term Liabilities / दीर्घकालिक देनदारियाँ"
+  },
+  {
+    "id": 54,
+    "question": "Who is known as the father of accounting? / लेखांकन के जनक किसे कहा जाता है?",
+    "options": ["Luca Pacioli / लूका पैचिओली", "Adam Smith / एडम स्मिथ", "Karl Marx / कार्ल मार्क्स", "John Keynes / जॉन केन्स"],
+    "answer": "Luca Pacioli / लूका पैचिओली"
+  },
+  {
+    "id": 55,
+    "question": "What is the term for the owner’s claim on business? / मालिक के व्यवसाय पर अधिकार को क्या कहा जाता है?",
+    "options": ["Capital / पूंजी", "Liability / देनदारी", "Expense / व्यय", "Revenue / राजस्व"],
+    "answer": "Capital / पूंजी"
+  },
+  {
+    "id": 56,
+    "question": "Which principle ensures consistency in accounting? / कौन-सा सिद्धांत लेखांकन में निरंतरता सुनिश्चित करता है?",
+    "options": ["Consistency Principle / स्थिरता सिद्धांत", "Conservatism / सतर्कता", "Accrual / उपार्जन", "Going Concern / सततता"],
+    "answer": "Consistency Principle / स्थिरता सिद्धांत"
+  },
+  {
+    "id": 57,
+    "question": "Which of these is not a current asset? / इनमें से कौन-सा चालू संपत्ति नहीं है?",
+    "options": ["Building / भवन", "Cash / नकद", "Debtors / देनदार", "Inventory / भंडार"],
+    "answer": "Building / भवन"
+  },
+  {
+    "id": 58,
+    "question": "Which document is sent by buyer to seller for returning goods? / खरीदार द्वारा सामान लौटाने पर विक्रेता को भेजा जाने वाला दस्तावेज कौन-सा है?",
+    "options": ["Debit Note / डेबिट नोट", "Credit Note / क्रेडिट नोट", "Invoice / चालान", "Voucher / वाउचर"],
+    "answer": "Debit Note / डेबिट नोट"
+  },
+  {
+    "id": 59,
+    "question": "What is meant by trade credit? / व्यापारिक ऋण का क्या अर्थ है?",
+    "options": ["Credit given by supplier / आपूर्तिकर्ता द्वारा दिया गया ऋण", "Loan from bank / बैंक से ऋण", "Advance payment / अग्रिम भुगतान", "Cash payment / नकद भुगतान"],
+    "answer": "Credit given by supplier / आपूर्तिकर्ता द्वारा दिया गया ऋण"
+  },
+  {
+    "id": 60,
+    "question": "Which statement is prepared to check accuracy of books? / पुस्तकों की शुद्धता जांचने के लिए कौन-सा विवरण तैयार किया जाता है?",
+    "options": ["Trial Balance / ट्रायल बैलेंस", "Ledger / लेजर", "Cash Book / नकद पुस्तक", "Balance Sheet / बैलेंस शीट"],
+    "answer": "Trial Balance / ट्रायल बैलेंस"
+  },
+  {
+    "id": 61,
+    "question": "Which is an example of direct expense? / प्रत्यक्ष खर्च का उदाहरण कौन-सा है?",
+    "options": ["Wages / मजदूरी", "Salaries / वेतन", "Rent / किराया", "Advertisement / विज्ञापन"],
+    "answer": "Wages / मजदूरी"
+  },
+  {
+    "id": 62,
+    "question": "What is meant by 'Bank Reconciliation Statement'? / 'बैंक सुलह विवरण' का क्या अर्थ है?",
+    "options": ["Statement comparing cash book and passbook / नकद पुस्तक और पासबुक की तुलना करने वाला विवरण", "Statement of profit and loss / लाभ और हानि का विवरण", "Balance sheet / बैलेंस शीट", "Statement of cash inflows / नकदी प्रवाह विवरण"],
+    "answer": "Statement comparing cash book and passbook / नकद पुस्तक और पासबुक की तुलना करने वाला विवरण"
+  },
+  {
+    "id": 63,
+    "question": "Which item appears on the assets side of balance sheet? / कौन-सी वस्तु बैलेंस शीट के परिसंपत्ति पक्ष में होती है?",
+    "options": ["Furniture / फर्नीचर", "Creditors / लेनदार", "Outstanding Expenses / बकाया व्यय", "Capital / पूंजी"],
+    "answer": "Furniture / फर्नीचर"
+  },
+  {
+    "id": 64,
+    "question": "What is the full form of ROI? / ROI का पूरा नाम क्या है?",
+    "options": ["Return on Investment / निवेश पर प्रतिफल", "Rate of Interest / ब्याज दर", "Revenue of Income / आय का राजस्व", "Return of Income / आय की वापसी"],
+    "answer": "Return on Investment / निवेश पर प्रतिफल"
+  },
+  {
+    "id": 65,
+    "question": "Which account is prepared to find out gross profit? / सकल लाभ जानने के लिए कौन-सा खाता तैयार किया जाता है?",
+    "options": ["Trading Account / व्यापार खाता", "Profit and Loss Account / लाभ-हानि खाता", "Cash Book / नकद पुस्तक", "Balance Sheet / बैलेंस शीट"],
+    "answer": "Trading Account / व्यापार खाता"
+  },
+  {
+    "id": 66,
+    "question": "What is meant by 'Share Capital'? / 'शेयर पूंजी' का क्या अर्थ है?",
+    "options": ["Money raised by issue of shares / शेयर जारी करके जुटाया गया धन", "Loan from bank / बैंक से ऋण", "Owner’s savings / मालिक की बचत", "Government fund / सरकारी निधि"],
+    "answer": "Money raised by issue of shares / शेयर जारी करके जुटाया गया धन"
+  },
+  {
+    "id": 67,
+    "question": "Which is not a feature of partnership? / इनमें से कौन-सी साझेदारी की विशेषता नहीं है?",
+    "options": ["Unlimited liability / असीमित देनदारी", "Separate legal entity / पृथक कानूनी इकाई", "Mutual agency / पारस्परिक एजेंसी", "Sharing of profit and loss / लाभ-हानि का बंटवारा"],
+    "answer": "Separate legal entity / पृथक कानूनी इकाई"
+  },
+  {
+    "id": 68,
+    "question": "What does double entry system mean? / द्वि-प्रविष्टि प्रणाली का क्या अर्थ है?",
+    "options": ["Every transaction has two aspects / प्रत्येक लेनदेन के दो पहलू होते हैं", "Transactions are recorded once / लेनदेन केवल एक बार दर्ज होते हैं", "Only income is recorded / केवल आय दर्ज होती है", "Only expenses are recorded / केवल व्यय दर्ज होते हैं"],
+    "answer": "Every transaction has two aspects / प्रत्येक लेनदेन के दो पहलू होते हैं"
+  },
+  {
+    "id": 69,
+    "question": "What is the purpose of auditing? / लेखा परीक्षण का उद्देश्य क्या है?",
+    "options": ["To check accuracy of accounts / खातों की शुद्धता की जांच करना", "To increase sales / बिक्री बढ़ाना", "To reduce expenses / व्यय घटाना", "To prepare budget / बजट तैयार करना"],
+    "answer": "To check accuracy of accounts / खातों की शुद्धता की जांच करना"
+  },
+  {
+    "id": 70,
+    "question": "What is the meaning of dividend? / लाभांश का क्या अर्थ है?",
+    "options": ["Share of profit to shareholders / शेयरधारकों को दिया गया लाभ का हिस्सा", "Company’s income / कंपनी की आय", "Tax on income / आय पर कर", "Loan interest / ऋण पर ब्याज"],
+    "answer": "Share of profit to shareholders / शेयरधारकों को दिया गया लाभ का हिस्सा"
+  },
+  {
+    "id": 71,
+    "question": "Which organization regulates the stock market in India? / भारत में शेयर बाजार को कौन नियंत्रित करता है?",
+    "options": ["SEBI / सेबी", "RBI / आरबीआई", "IRDA / आईआरडीए", "NABARD / नाबार्ड"],
+    "answer": "SEBI / सेबी"
+  },
+  {
+    "id": 72,
+    "question": "What is 'Depreciation'? / 'मूल्यह्रास' क्या है?",
+    "options": ["Reduction in value of asset / संपत्ति के मूल्य में कमी", "Increase in asset value / संपत्ति के मूल्य में वृद्धि", "Cash payment / नकद भुगतान", "Business expense / व्यवसायिक व्यय"],
+    "answer": "Reduction in value of asset / संपत्ति के मूल्य में कमी"
+  },
+  {
+    "id": 73,
+    "question": "In which account goodwill is shown? / गुडविल किस खाते में दिखाई जाती है?",
+    "options": ["Balance Sheet / बैलेंस शीट", "Trading Account / व्यापार खाता", "Profit and Loss Account / लाभ-हानि खाता", "Trial Balance / ट्रायल बैलेंस"],
+    "answer": "Balance Sheet / बैलेंस शीट"
+  },
+  {
+    "id": 74,
+    "question": "Which type of business is owned by one person? / किस प्रकार का व्यवसाय एक व्यक्ति का होता है?",
+    "options": ["Sole Proprietorship / एकल स्वामित्व", "Partnership / साझेदारी", "Company / कंपनी", "Co-operative / सहकारी"],
+    "answer": "Sole Proprietorship / एकल स्वामित्व"
+  },
+  {
+    "id": 75,
+    "question": "What is meant by ‘Working Capital’? / ‘कार्यशील पूंजी’ का क्या अर्थ है?",
+    "options": ["Current Assets - Current Liabilities / चालू परिसंपत्तियाँ - चालू देनदारियाँ", "Fixed Assets + Liabilities / स्थायी परिसंपत्तियाँ + देनदारियाँ", "Capital + Profit / पूंजी + लाभ", "Expenses - Income / व्यय - आय"],
+    "answer": "Current Assets - Current Liabilities / चालू परिसंपत्तियाँ - चालू देनदारियाँ"
+  },
+  {
+    "id": 76,
+    "question": "Which book is used to record all transactions in order of date? / कौन-सी पुस्तक सभी लेनदेन को तिथि के क्रम में दर्ज करती है?",
+    "options": ["Journal / जर्नल", "Ledger / लेजर", "Cash Book / नकद पुस्तक", "Trial Balance / ट्रायल बैलेंस"],
+    "answer": "Journal / जर्नल"
+  },
+  {
+    "id": 77,
+    "question": "Which is a cash expense? / कौन-सा खर्च नकद व्यय है?",
+    "options": ["Payment of rent / किराया भुगतान", "Depreciation / मूल्यह्रास", "Outstanding salary / बकाया वेतन", "Prepaid insurance / अग्रिम बीमा"],
+    "answer": "Payment of rent / किराया भुगतान"
+  },
+  {
+    "id": 78,
+    "question": "What does TDS stand for? / TDS का अर्थ क्या है?",
+    "options": ["Tax Deducted at Source / स्रोत पर कर कटौती", "Total Debt System / कुल ऋण प्रणाली", "Trade Discount System / व्यापारिक छूट प्रणाली", "Tax on Direct Sales / प्रत्यक्ष बिक्री पर कर"],
+    "answer": "Tax Deducted at Source / स्रोत पर कर कटौती"
+  },
+  {
+    "id": 79,
+    "question": "Which of the following is a tangible asset? / निम्नलिखित में से कौन मूर्त संपत्ति है?",
+    "options": ["Machinery / मशीनरी", "Goodwill / साख", "Trademark / ट्रेडमार्क", "Patent / पेटेंट"],
+    "answer": "Machinery / मशीनरी"
+  },
+  {
+    "id": 80,
+    "question": "Which expense is related to administration? / कौन-सा व्यय प्रशासन से संबंधित है?",
+    "options": ["Salary of manager / प्रबंधक का वेतन", "Carriage inward / अंदर ढुलाई", "Freight / भाड़ा", "Factory rent / कारखाना किराया"],
+    "answer": "Salary of manager / प्रबंधक का वेतन"
+  },
+  {
+    "id": 81,
+    "question": "What is meant by liability? / देनदारी का क्या अर्थ है?",
+    "options": ["Obligation to pay / भुगतान करने का दायित्व", "Money received / प्राप्त धन", "Profit earned / अर्जित लाभ", "Assets owned / स्वामित्व संपत्ति"],
+    "answer": "Obligation to pay / भुगतान करने का दायित्व"
+  },
+  {
+    "id": 82,
+    "question": "Who audits the accounts of government? / सरकार के खातों का लेखा-परीक्षण कौन करता है?",
+    "options": ["CAG / कैग", "RBI / आरबीआई", "SEBI / सेबी", "Finance Commission / वित्त आयोग"],
+    "answer": "CAG / कैग"
+  },
+  {
+    "id": 83,
+    "question": "Which account is debited for loss of goods by fire? / आग से माल की हानि पर कौन-सा खाता डेबिट होता है?",
+    "options": ["Loss by Fire A/c / आग से हानि खाता", "Sales A/c / बिक्री खाता", "Purchase A/c / खरीद खाता", "Cash A/c / नकद खाता"],
+    "answer": "Loss by Fire A/c / आग से हानि खाता"
+  },
+  {
+    "id": 84,
+    "question": "Which account is credited when cash is received? / जब नकद प्राप्त होता है तो कौन-सा खाता क्रेडिट होता है?",
+    "options": ["Sales / बिक्री", "Purchases / खरीद", "Expense / व्यय", "Capital / पूंजी"],
+    "answer": "Sales / बिक्री"
+  },
+  {
+    "id": 85,
+    "question": "Which is an example of fixed cost? / स्थिर लागत का उदाहरण कौन-सा है?",
+    "options": ["Rent / किराया", "Wages / मजदूरी", "Raw Material / कच्चा माल", "Commission / कमीशन"],
+    "answer": "Rent / किराया"
+  },
+  {
+    "id": 86,
+    "question": "What is meant by ‘Ledger’? / ‘लेजर’ का क्या अर्थ है?",
+    "options": ["Book of final entry / अंतिम प्रविष्टि की पुस्तक", "Book of original entry / प्रारंभिक प्रविष्टि की पुस्तक", "Cash record / नकद अभिलेख", "Voucher record / वाउचर रिकॉर्ड"],
+    "answer": "Book of final entry / अंतिम प्रविष्टि की पुस्तक"
+  },
+  {
+    "id": 87,
+    "question": "Which is not shown in balance sheet? / कौन-सी वस्तु बैलेंस शीट में नहीं दिखाई जाती?",
+    "options": ["Sales / बिक्री", "Cash / नकद", "Building / भवन", "Debtors / देनदार"],
+    "answer": "Sales / बिक्री"
+  },
+  {
+    "id": 88,
+    "question": "What is the meaning of ‘Provision’? / ‘प्रावधान’ का क्या अर्थ है?",
+    "options": ["Amount set aside for liability / देनदारी के लिए अलग रखी गई राशि", "Profit distribution / लाभ वितरण", "Bonus payment / बोनस भुगतान", "Cash reserve / नकद भंडार"],
+    "answer": "Amount set aside for liability / देनदारी के लिए अलग रखी गई राशि"
+  },
+  {
+    "id": 89,
+    "question": "What does 'Insolvency' mean? / 'दिवालियापन' का क्या अर्थ है?",
+    "options": ["Inability to pay debts / ऋणों का भुगतान न कर पाना", "Profit earning / लाभ अर्जन", "Increase in capital / पूंजी में वृद्धि", "High revenue / उच्च राजस्व"],
+    "answer": "Inability to pay debts / ऋणों का भुगतान न कर पाना"
+  },
+  {
+    "id": 90,
+    "question": "What is meant by 'Turnover'? / 'टर्नओवर' का क्या अर्थ है?",
+    "options": ["Total sales / कुल बिक्री", "Total profit / कुल लाभ", "Total assets / कुल संपत्ति", "Total liability / कुल देनदारी"],
+    "answer": "Total sales / कुल बिक्री"
+  },
+  {
+    "id": 91,
+    "question": "Which is not a branch of accounting? / इनमें से कौन-सा लेखांकन की शाखा नहीं है?",
+    "options": ["Marketing Accounting / विपणन लेखांकन", "Cost Accounting / लागत लेखांकन", "Financial Accounting / वित्तीय लेखांकन", "Management Accounting / प्रबंधन लेखांकन"],
+    "answer": "Marketing Accounting / विपणन लेखांकन"
+  },
+  {
+    "id": 92,
+    "question": "What is the full form of IFRS? / IFRS का पूरा नाम क्या है?",
+    "options": ["International Financial Reporting Standards / अंतर्राष्ट्रीय वित्तीय प्रतिवेदन मानक", "Indian Financial Rating System / भारतीय वित्तीय रेटिंग प्रणाली", "Internal Fund Reporting Scheme / आंतरिक निधि रिपोर्टिंग योजना", "Investment and Fund Regulatory Standards / निवेश और निधि नियामक मानक"],
+    "answer": "International Financial Reporting Standards / अंतर्राष्ट्रीय वित्तीय प्रतिवेदन मानक"
+  },
+  {
+    "id": 93,
+    "question": "Which account is affected when goods are sold on credit? / जब माल उधार बेचा जाता है तो कौन-सा खाता प्रभावित होता है?",
+    "options": ["Debtors A/c / देनदार खाता", "Cash A/c / नकद खाता", "Creditors A/c / लेनदार खाता", "Purchase A/c / खरीद खाता"],
+    "answer": "Debtors A/c / देनदार खाता"
+  },
+  {
+    "id": 94,
+    "question": "What is meant by 'Capital Expenditure'? / 'पूंजीगत व्यय' का क्या अर्थ है?",
+    "options": ["Expenditure for acquiring assets / संपत्ति प्राप्त करने हेतु व्यय", "Expenditure for daily operations / दैनिक कार्यों हेतु व्यय", "Expenditure for salaries / वेतन हेतु व्यय", "Expenditure for advertisement / विज्ञापन हेतु व्यय"],
+    "answer": "Expenditure for acquiring assets / संपत्ति प्राप्त करने हेतु व्यय"
+  },
+  {
+    "id": 95,
+    "question": "Which account shows financial position of business? / कौन-सा खाता व्यवसाय की वित्तीय स्थिति दर्शाता है?",
+    "options": ["Balance Sheet / बैलेंस शीट", "Trading Account / व्यापार खाता", "Profit & Loss Account / लाभ-हानि खाता", "Journal / जर्नल"],
+    "answer": "Balance Sheet / बैलेंस शीट"
+  },
+  {
+    "id": 96,
+    "question": "Which expense is not included in cost of goods sold? / कौन-सा व्यय बेचे गए माल की लागत में शामिल नहीं है?",
+    "options": ["Office salary / कार्यालय वेतन", "Carriage inward / अंदर ढुलाई", "Wages / मजदूरी", "Freight inward / अंदर भाड़ा"],
+    "answer": "Office salary / कार्यालय वेतन"
+  },
+  {
+    "id": 97,
+    "question": "What is meant by 'Outstanding Expense'? / 'बकाया व्यय' का क्या अर्थ है?",
+    "options": ["Expense due but not paid / देय परंतु भुगतान न किया गया व्यय", "Expense paid in advance / अग्रिम भुगतान किया गया व्यय", "Expense paid in cash / नकद भुगतान किया गया व्यय", "Expense recorded twice / दो बार दर्ज किया गया व्यय"],
+    "answer": "Expense due but not paid / देय परंतु भुगतान न किया गया व्यय"
+  },
+  {
+    "id": 98,
+    "question": "Which concept assumes business will continue indefinitely? / कौन-सा सिद्धांत मानता है कि व्यवसाय अनिश्चित काल तक चलेगा?",
+    "options": ["Going Concern Concept / सततता सिद्धांत", "Money Measurement Concept / मुद्रा मापन सिद्धांत", "Realization Concept / साकार सिद्धांत", "Matching Concept / मिलान सिद्धांत"],
+    "answer": "Going Concern Concept / सततता सिद्धांत"
+  },
+  {
+    "id": 99,
+    "question": "Which financial statement shows income and expenses? / कौन-सा वित्तीय विवरण आय और व्यय दर्शाता है?",
+    "options": ["Profit and Loss Account / लाभ और हानि खाता", "Balance Sheet / बैलेंस शीट", "Trial Balance / ट्रायल बैलेंस", "Journal / जर्नल"],
+    "answer": "Profit and Loss Account / लाभ और हानि खाता"
+  },
+  {
+    "id": 100,
+    "question": "Which is an intangible asset? / कौन-सी अमूर्त संपत्ति है?",
+    "options": ["Patent / पेटेंट", "Machinery / मशीनरी", "Building / भवन", "Furniture / फर्नीचर"],
+    "answer": "Patent / पेटेंट"
+  }
+]
