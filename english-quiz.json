@@ -1,602 +1,312 @@
 [
   {
     "id": 1,
-    "question": "Choose the correct synonym of 'Brave'.",
-    "options": ["Cowardly", "Courageous", "Weak", "Timid"],
-    "answer": 1
+    "question": "Choose the correct form of the verb: He ____ to school every day.",
+    "options": ["go", "goes", "gone", "going"],
+    "answer": "goes"
   },
   {
     "id": 2,
-    "question": "Fill in the blank: He ____ to school every day.",
-    "options": ["go", "goes", "gone", "going"],
-    "answer": 1
+    "question": "Find the synonym of 'Brave'.",
+    "options": ["Cowardly", "Fearful", "Courageous", "Weak"],
+    "answer": "Courageous"
   },
   {
     "id": 3,
-    "question": "Identify the error: She do not like apples.",
-    "options": ["She", "do", "not", "like"],
-    "answer": 1
+    "question": "Fill in the blank: If I ____ you, I would apologize.",
+    "options": ["was", "were", "am", "be"],
+    "answer": "were"
   },
   {
     "id": 4,
-    "question": "Choose the correct antonym of 'Ancient'.",
-    "options": ["Old", "Modern", "Historic", "Past"],
-    "answer": 1
+    "question": "Choose the correct sentence.",
+    "options": [
+      "He don’t likes coffee.",
+      "He doesn’t like coffee.",
+      "He don’t like coffee.",
+      "He doesn’t likes coffee."
+    ],
+    "answer": "He doesn’t like coffee."
   },
   {
     "id": 5,
-    "question": "The idiom 'A blessing in disguise' means:",
-    "options": ["Something bad turned out good", "A hidden curse", "A pleasant surprise", "None of these"],
-    "answer": 0
+    "question": "Select the most suitable response: 'Would you like some tea?'",
+    "options": ["No, I don’t.", "Yes, I am.", "Yes, please.", "No, I not."],
+    "answer": "Yes, please."
   },
   {
     "id": 6,
-    "question": "Select the correct spelling:",
-    "options": ["Accomodation", "Accommodation", "Acommodation", "Accommadation"],
-    "answer": 1
+    "question": "Choose the correct antonym of 'Ancient'.",
+    "options": ["Old", "Modern", "Historic", "Past"],
+    "answer": "Modern"
   },
   {
     "id": 7,
-    "question": "Choose the correct option: The train ____ before we reached the station.",
-    "options": ["left", "leaves", "had left", "has left"],
-    "answer": 2
+    "question": "The idiom 'A blessing in disguise' means:",
+    "options": ["Something bad turned out good", "A hidden curse", "A pleasant surprise", "None of these"],
+    "answer": "Something bad turned out good"
   },
   {
     "id": 8,
-    "question": "Find the synonym of 'Enormous'.",
-    "options": ["Tiny", "Huge", "Light", "Narrow"],
-    "answer": 1
+    "question": "Select the correct spelling:",
+    "options": ["Accomodation", "Accommodation", "Acommodation", "Accommadation"],
+    "answer": "Accommodation"
   },
   {
     "id": 9,
-    "question": "Choose the correct article: He is ___ honest man.",
-    "options": ["a", "an", "the", "no article"],
-    "answer": 1
+    "question": "Choose the correct option: The train ____ before we reached the station.",
+    "options": ["left", "leaves", "had left", "has left"],
+    "answer": "had left"
   },
   {
     "id": 10,
-    "question": "Choose the correct preposition: She is afraid ___ spiders.",
-    "options": ["from", "with", "of", "to"],
-    "answer": 2
+    "question": "Find the synonym of 'Enormous'.",
+    "options": ["Tiny", "Huge", "Light", "Narrow"],
+    "answer": "Huge"
   },
   {
     "id": 11,
-    "question": "Choose the correct tense: By next year, I ____ my graduation.",
-    "options": ["complete", "will complete", "will have completed", "completed"],
-    "answer": 2
+    "question": "Choose the correct article: He is ___ honest man.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an"
   },
   {
     "id": 12,
-    "question": "Select the correct passive voice: They are repairing the road.",
-    "options": ["The road repaired by them.", "The road is repaired by them.", "The road is being repaired by them.", "The road has been repaired by them."],
-    "answer": 2
+    "question": "Choose the correct preposition: She is afraid ___ spiders.",
+    "options": ["from", "with", "of", "to"],
+    "answer": "of"
   },
   {
     "id": 13,
-    "question": "Find the antonym of 'Generous'.",
-    "options": ["Kind", "Selfish", "Helpful", "Polite"],
-    "answer": 1
+    "question": "Choose the correct tense: By next year, I ____ my graduation.",
+    "options": ["complete", "will complete", "will have completed", "completed"],
+    "answer": "will have completed"
   },
   {
     "id": 14,
-    "question": "Choose the correct option: If it rains, we ____ go out.",
-    "options": ["will not", "did not", "not", "don't"],
-    "answer": 0
+    "question": "Select the correct passive voice: They are repairing the road.",
+    "options": [
+      "The road repaired by them.",
+      "The road is repaired by them.",
+      "The road is being repaired by them.",
+      "The road has been repaired by them."
+    ],
+    "answer": "The road is being repaired by them."
   },
   {
     "id": 15,
-    "question": "Identify the correct indirect speech: He said, 'I am tired.'",
-    "options": ["He said that he is tired.", "He said that he was tired.", "He says he was tired.", "He told he is tired."],
-    "answer": 1
+    "question": "Find the antonym of 'Generous'.",
+    "options": ["Kind", "Selfish", "Helpful", "Polite"],
+    "answer": "Selfish"
   },
   {
     "id": 16,
-    "question": "Select the correct word: The boy was punished for his ____ behaviour.",
-    "options": ["obedient", "obedience", "disobedient", "disobey"],
-    "answer": 2
+    "question": "Choose the correct option: If it rains, we ____ go out.",
+    "options": ["will not", "did not", "not", "don't"],
+    "answer": "will not"
   },
   {
     "id": 17,
-    "question": "Choose the synonym of 'Rapid'.",
-    "options": ["Fast", "Slow", "Calm", "Steady"],
-    "answer": 0
+    "question": "Identify the correct indirect speech: He said, 'I am tired.'",
+    "options": ["He said that he is tired.", "He said that he was tired.", "He says he was tired.", "He told he is tired."],
+    "answer": "He said that he was tired."
   },
   {
     "id": 18,
-    "question": "Fill in the blank: The sun ____ in the east.",
-    "options": ["rise", "rises", "rose", "rising"],
-    "answer": 1
+    "question": "Select the correct word: The boy was punished for his ____ behaviour.",
+    "options": ["obedient", "obedience", "disobedient", "disobey"],
+    "answer": "disobedient"
   },
   {
     "id": 19,
-    "question": "Identify the correctly punctuated sentence.",
-    "options": ["He said, 'come here'.", "He said, 'Come here.'", "He said, come here.", "He said, Come here."],
-    "answer": 1
+    "question": "Choose the synonym of 'Rapid'.",
+    "options": ["Fast", "Slow", "Calm", "Steady"],
+    "answer": "Fast"
   },
   {
     "id": 20,
-    "question": "Choose the correct option: She prefers tea ____ coffee.",
-    "options": ["than", "to", "over", "from"],
-    "answer": 1
+    "question": "Fill in the blank: The sun ____ in the east.",
+    "options": ["rise", "rises", "rose", "rising"],
+    "answer": "rises"
   },
   {
     "id": 21,
-    "question": "Find the antonym of 'Artificial'.",
-    "options": ["Synthetic", "Natural", "Man-made", "Plastic"],
-    "answer": 1
+    "question": "Identify the correctly punctuated sentence.",
+    "options": ["He said, 'come here'.", "He said, 'Come here.'", "He said, come here.", "He said, Come here."],
+    "answer": "He said, 'Come here.'"
   },
   {
     "id": 22,
-    "question": "Choose the correct option: I have been waiting here ____ two hours.",
-    "options": ["since", "for", "from", "till"],
-    "answer": 1
+    "question": "Choose the correct option: She prefers tea ____ coffee.",
+    "options": ["than", "to", "over", "from"],
+    "answer": "to"
   },
   {
     "id": 23,
-    "question": "The idiom 'Hit the nail on the head' means:",
-    "options": ["To make a mistake", "To say exactly the right thing", "To hurt someone", "To hit hard"],
-    "answer": 1
+    "question": "Find the antonym of 'Artificial'.",
+    "options": ["Synthetic", "Natural", "Man-made", "Plastic"],
+    "answer": "Natural"
   },
   {
     "id": 24,
-    "question": "Select the correct form: He is one of those boys who ____ always late.",
-    "options": ["is", "was", "are", "has been"],
-    "answer": 2
+    "question": "Choose the correct option: I have been waiting here ____ two hours.",
+    "options": ["since", "for", "from", "till"],
+    "answer": "for"
   },
   {
     "id": 25,
-    "question": "Choose the correct preposition: The cat is hiding ____ the bed.",
-    "options": ["in", "on", "under", "behind"],
-    "answer": 2
+    "question": "The idiom 'Hit the nail on the head' means:",
+    "options": ["To make a mistake", "To say exactly the right thing", "To hurt someone", "To hit hard"],
+    "answer": "To say exactly the right thing"
   },
   {
     "id": 26,
-    "question": "Find the synonym of 'Fortunate'.",
-    "options": ["Lucky", "Poor", "Sad", "Unhappy"],
-    "answer": 0
+    "question": "Select the correct form: He is one of those boys who ____ always late.",
+    "options": ["is", "was", "are", "has been"],
+    "answer": "are"
   },
   {
     "id": 27,
-    "question": "Choose the correct option: Each of the boys ____ given a prize.",
-    "options": ["was", "were", "are", "be"],
-    "answer": 0
+    "question": "Choose the correct preposition: The cat is hiding ____ the bed.",
+    "options": ["in", "on", "under", "behind"],
+    "answer": "under"
   },
   {
     "id": 28,
-    "question": "Identify the correct spelling:",
-    "options": ["Definately", "Definitely", "Definetly", "Definatly"],
-    "answer": 1
+    "question": "Find the synonym of 'Fortunate'.",
+    "options": ["Lucky", "Poor", "Sad", "Unhappy"],
+    "answer": "Lucky"
   },
   {
     "id": 29,
-    "question": "Choose the correct option: He is senior ____ me.",
-    "options": ["than", "to", "from", "of"],
-    "answer": 1
+    "question": "Choose the correct option: Each of the boys ____ given a prize.",
+    "options": ["was", "were", "are", "be"],
+    "answer": "was"
   },
   {
     "id": 30,
-    "question": "Fill in the blank: She is interested ____ music.",
-    "options": ["with", "in", "on", "at"],
-    "answer": 1
+    "question": "Identify the correct spelling:",
+    "options": ["Definately", "Definitely", "Definetly", "Definatly"],
+    "answer": "Definitely"
   },
   {
     "id": 31,
-    "question": "The idiom 'Break the ice' means:",
-    "options": ["To start a conversation", "To break something", "To become cold", "To end a friendship"],
-    "answer": 0
+    "question": "Choose the correct option: He is senior ____ me.",
+    "options": ["than", "to", "from", "of"],
+    "answer": "to"
   },
   {
     "id": 32,
-    "question": "Choose the correct tense: I ____ my homework before dinner.",
-    "options": ["finish", "finished", "had finished", "have finish"],
-    "answer": 2
+    "question": "Fill in the blank: She is interested ____ music.",
+    "options": ["with", "in", "on", "at"],
+    "answer": "in"
   },
   {
     "id": 33,
-    "question": "Find the antonym of 'Proud'.",
-    "options": ["Arrogant", "Humble", "Boastful", "Egoistic"],
-    "answer": 1
+    "question": "The idiom 'Break the ice' means:",
+    "options": ["To start a conversation", "To break something", "To become cold", "To end a friendship"],
+    "answer": "To start a conversation"
   },
   {
     "id": 34,
-    "question": "Choose the correct synonym of 'Frugal'.",
-    "options": ["Wasteful", "Thrifty", "Lavish", "Extravagant"],
-    "answer": 1
+    "question": "Choose the correct tense: I ____ my homework before dinner.",
+    "options": ["finish", "finished", "had finished", "have finish"],
+    "answer": "had finished"
   },
   {
     "id": 35,
-    "question": "Fill in the blank: I wish I ____ more time yesterday.",
-    "options": ["have", "had", "has", "having"],
-    "answer": 1
+    "question": "Find the antonym of 'Proud'.",
+    "options": ["Arrogant", "Humble", "Boastful", "Egoistic"],
+    "answer": "Humble"
   },
   {
     "id": 36,
-    "question": "Select the correct pair: 'Bitter' is to 'Sweet' as 'Hot' is to ____.",
-    "options": ["Cold", "Warm", "Cool", "Mild"],
-    "answer": 0
+    "question": "Choose the correct synonym of 'Frugal'.",
+    "options": ["Wasteful", "Thrifty", "Lavish", "Extravagant"],
+    "answer": "Thrifty"
   },
   {
     "id": 37,
-    "question": "Choose the correct option: He would rather ____ at home than go out.",
-    "options": ["stay", "stays", "staying", "stayed"],
-    "answer": 0
+    "question": "Fill in the blank: I wish I ____ more time yesterday.",
+    "options": ["have", "had", "has", "having"],
+    "answer": "had"
   },
   {
     "id": 38,
-    "question": "Identify the error: Neither of the boys have finished the work.",
-    "options": ["Neither", "of", "have", "finished"],
-    "answer": 2
+    "question": "Select the correct pair: 'Bitter' is to 'Sweet' as 'Hot' is to ____.",
+    "options": ["Cold", "Warm", "Cool", "Mild"],
+    "answer": "Cold"
   },
   {
     "id": 39,
-    "question": "Choose the correct synonym of 'Obsolete'.",
-    "options": ["Outdated", "Useful", "Modern", "Current"],
-    "answer": 0
+    "question": "Choose the correct option: He would rather ____ at home than go out.",
+    "options": ["stay", "stays", "staying", "stayed"],
+    "answer": "stay"
   },
   {
     "id": 40,
-    "question": "Fill in the blank: She is looking forward ____ meeting you.",
-    "options": ["to", "for", "on", "at"],
-    "answer": 0
+    "question": "Identify the error: Neither of the boys have finished the work.",
+    "options": ["Neither", "of", "have", "finished"],
+    "answer": "have"
   },
   {
     "id": 41,
-    "question": "Choose the correct tense: He ____ already left when I arrived.",
-    "options": ["has", "have", "had", "was"],
-    "answer": 2
+    "question": "Choose the correct synonym of 'Obsolete'.",
+    "options": ["Outdated", "Useful", "Modern", "Current"],
+    "answer": "Outdated"
   },
   {
     "id": 42,
-    "question": "Select the correct indirect speech: She said, 'I will come tomorrow.'",
-    "options": ["She said that she will come tomorrow.", "She said that she would come the next day.", "She said that she comes tomorrow.", "She told that she will come."],
-    "answer": 1
+    "question": "Fill in the blank: She is looking forward ____ meeting you.",
+    "options": ["to", "for", "on", "at"],
+    "answer": "to"
   },
   {
     "id": 43,
-    "question": "Find the antonym of 'Scarce'.",
-    "options": ["Rare", "Abundant", "Seldom", "Sparse"],
-    "answer": 1
+    "question": "Choose the correct tense: He ____ already left when I arrived.",
+    "options": ["has", "have", "had", "was"],
+    "answer": "had"
   },
   {
     "id": 44,
-    "question": "Choose the correct option: He is accused ____ stealing the money.",
-    "options": ["of", "for", "with", "about"],
-    "answer": 0
+    "question": "Select the correct indirect speech: She said, 'I will come tomorrow.'",
+    "options": ["She said that she will come tomorrow.", "She said that she would come the next day.", "She said that she comes tomorrow.", "She told that she will come."],
+    "answer": "She said that she would come the next day."
   },
   {
     "id": 45,
-    "question": "Choose the correct spelling:",
-    "options": ["Harassment", "Harasment", "Harrassment", "Harasmentt"],
-    "answer": 0
+    "question": "Find the antonym of 'Scarce'.",
+    "options": ["Rare", "Abundant", "Seldom", "Sparse"],
+    "answer": "Abundant"
   },
   {
     "id": 46,
-    "question": "Fill in the blank: If I had known, I ____ told you.",
-    "options": ["would have", "will have", "have", "would"],
-    "answer": 0
+    "question": "Choose the correct option: He is accused ____ stealing the money.",
+    "options": ["of", "for", "with", "about"],
+    "answer": "of"
   },
   {
     "id": 47,
-    "question": "Identify the correct usage: He is taller ____ his brother.",
-    "options": ["than", "to", "from", "then"],
-    "answer": 0
+    "question": "Select the correct spelling:",
+    "options": ["Harassment", "Harasment", "Harrassment", "Harasmentt"],
+    "answer": "Harassment"
   },
   {
     "id": 48,
-    "question": "Choose the synonym of 'Vivid'.",
-    "options": ["Dull", "Clear", "Faint", "Dim"],
-    "answer": 1
+    "question": "Fill in the blank: If I had known, I ____ told you.",
+    "options": ["would have", "will have", "have", "would"],
+    "answer": "would have"
   },
   {
     "id": 49,
-    "question": "Choose the correct option: I prefer tea ____ coffee.",
-    "options": ["than", "to", "over", "instead of"],
-    "answer": 1
+    "question": "Identify the correct usage: He is taller ____ his brother.",
+    "options": ["than", "to", "from", "then"],
+    "answer": "than"
   },
   {
     "id": 50,
-    "question": "Find the antonym of 'Generous'.",
-    "options": ["Stingy", "Kind", "Helpful", "Polite"],
-    "answer": 0
-  },
-  {
-    "id": 51,
-    "question": "Choose the correct tense: She ____ in London for five years.",
-    "options": ["lived", "has lived", "had lived", "live"],
-    "answer": 1
-  },
-  {
-    "id": 52,
-    "question": "Find the correct phrasal verb: 'To stop doing something' is ____.",
-    "options": ["give up", "give in", "give out", "give away"],
-    "answer": 0
-  },
-  {
-    "id": 53,
-    "question": "Identify the error: Everyone must bring their pencil.",
-    "options": ["Everyone", "must", "bring", "their"],
-    "answer": 3
-  },
-  {
-    "id": 54,
-    "question": "Choose the correct synonym of 'Ambiguous'.",
-    "options": ["Clear", "Vague", "Certain", "Obvious"],
-    "answer": 1
-  },
-  {
-    "id": 55,
-    "question": "Fill in the blank: He behaves ____ a gentleman.",
-    "options": ["like", "as", "such as", "similar to"],
-    "answer": 0
-  },
-  {
-    "id": 56,
-    "question": "Choose the correct article: ____ moon is bright tonight.",
-    "options": ["A", "An", "The", "No article"],
-    "answer": 2
-  },
-  {
-    "id": 57,
-    "question": "Identify the correct sentence:",
-    "options": ["Neither of them are ready.", "Neither of them is ready.", "Neither of them have ready.", "Neither of them were ready."],
-    "answer": 1
-  },
-  {
-    "id": 58,
-    "question": "Find the synonym of 'Hostile'.",
-    "options": ["Friendly", "Aggressive", "Kind", "Benevolent"],
-    "answer": 1
-  },
-  {
-    "id": 59,
-    "question": "Choose the correct option: She made him ____ the truth.",
-    "options": ["tell", "told", "to tell", "telling"],
-    "answer": 2
-  },
-  {
-    "id": 60,
-    "question": "Fill in the blank: He succeeded ___ solving the problem.",
-    "options": ["in", "on", "at", "with"],
-    "answer": 0
-  },
-  {
-    "id": 61,
-    "question": "Choose the correct tense: By the time you arrive, we ____ dinner.",
-    "options": ["finish", "will finish", "will have finished", "finished"],
-    "answer": 2
-  },
-  {
-    "id": 62,
-    "question": "Find the antonym of 'Reluctant'.",
-    "options": ["Willing", "Hesitant", "Unwilling", "Resistant"],
-    "answer": 0
-  },
-  {
-    "id": 63,
-    "question": "Identify the correct idiom meaning: 'To pull someone's leg'.",
-    "options": ["To tease someone", "To help someone", "To hurt someone", "To ignore someone"],
-    "answer": 0
-  },
-  {
-    "id": 64,
-    "question": "Choose the correct preposition: He is keen ___ painting.",
-    "options": ["for", "on", "in", "about"],
-    "answer": 1
-  },
-  {
-    "id": 65,
-    "question": "Select the correct form: It is high time he ____ to bed.",
-    "options": ["go", "went", "goes", "gone"],
-    "answer": 1
-  },
-  {
-    "id": 66,
-    "question": "Find the synonym of 'Mendacious'.",
-    "options": ["Truthful", "Lying", "Honest", "Frank"],
-    "answer": 1
-  },
-  {
-    "id": 67,
-    "question": "Choose the correct option: He is used to ____ up early.",
-    "options": ["get", "getting", "to get", "got"],
-    "answer": 1
-  },
-  {
-    "id": 68,
-    "question": "Identify the error: The committee have reached its decision.",
-    "options": ["The committee", "have", "reached", "its"],
-    "answer": 1
-  },
-  {
-    "id": 69,
-    "question": "Choose the correct synonym of 'Obscure'.",
-    "options": ["Clear", "Vague", "Famous", "Known"],
-    "answer": 1
-  },
-  {
-    "id": 70,
-    "question": "Fill in the blank: She insisted ____ paying for the meal.",
-    "options": ["on", "in", "at", "upon"],
-    "answer": 0
-  },
-  {
-    "id": 71,
-    "question": "Choose the correct tense: I ____ here since 2010.",
-    "options": ["am living", "have lived", "had lived", "live"],
-    "answer": 1
-  },
-  {
-    "id": 72,
-    "question": "Find the antonym of 'Opaque'.",
-    "options": ["Translucent", "Transparent", "Clear", "All of these"],
-    "answer": 3
-  },
-  {
-    "id": 73,
-    "question": "Identify the correct usage: He suggested that she ____ the book.",
-    "options": ["read", "reads", "readed", "is reading"],
-    "answer": 0
-  },
-  {
-    "id": 74,
-    "question": "Choose the correct synonym of 'Perplexed'.",
-    "options": ["Confused", "Clear", "Certain", "Sure"],
-    "answer": 0
-  },
-  {
-    "id": 75,
-    "question": "Fill in the blank: They were accused ____ causing the accident.",
-    "options": ["of", "for", "with", "about"],
-    "answer": 0
-  },
-  {
-    "id": 76,
-    "question": "Choose the correct option: Neither John nor his friends ____ available.",
-    "options": ["is", "are", "was", "were"],
-    "answer": 1
-  },
-  {
-    "id": 77,
-    "question": "Identify the antonym of 'Benevolent'.",
-    "options": ["Kind", "Malevolent", "Generous", "Compassionate"],
-    "answer": 1
-  },
-  {
-    "id": 78,
-    "question": "Choose the correct phrase: He was ____ to tears.",
-    "options": ["moved", "moved up", "moved down", "moved out"],
-    "answer": 0
-  },
-  {
-    "id": 79,
-    "question": "Find the correct preposition: She is good ____ mathematics.",
-    "options": ["at", "in", "on", "for"],
-    "answer": 0
-  },
-  {
-    "id": 80,
-    "question": "Choose the correct tense: If he ____ earlier, he would have caught the train.",
-    "options": ["had left", "left", "has left", "leaves"],
-    "answer": 0
-  },
-  {
-    "id": 81,
-    "question": "Identify the synonym of 'Abridge'.",
-    "options": ["Expand", "Shorten", "Elaborate", "Lengthen"],
-    "answer": 1
-  },
-  {
-    "id": 82,
-    "question": "Fill in the blank: He is capable ____ doing the job.",
-    "options": ["of", "for", "to", "with"],
-    "answer": 0
-  },
-  {
-    "id": 83,
-    "question": "Choose the correct word: She has a very ____ sense of humour.",
-    "options": ["dry", "dried", "drier", "dryly"],
-    "answer": 0
-  },
-  {
-    "id": 84,
-    "question": "Identify the error: Few people know the answer.",
-    "options": ["Few", "people", "know", "the"],
-    "answer": 0
-  },
-  {
-    "id": 85,
-    "question": "Choose the correct synonym of 'Tenacious'.",
-    "options": ["Weak", "Persistent", "Yielding", "Fickle"],
-    "answer": 1
-  },
-  {
-    "id": 86,
-    "question": "Fill in the blank: He promised ____ help me.",
-    "options": ["to", "for", "in", "on"],
-    "answer": 0
-  },
-  {
-    "id": 87,
-    "question": "Choose the correct option: She had hardly ____ when the phone rang.",
-    "options": ["arrived", "arrive", "arrives", "arriving"],
-    "answer": 0
-  },
-  {
-    "id": 88,
-    "question": "Identify the antonym of 'Frivolous'.",
-    "options": ["Serious", "Trivial", "Playful", "Silly"],
-    "answer": 0
-  },
-  {
-    "id": 89,
-    "question": "Choose the correct preposition: He divided the cake ____ four parts.",
-    "options": ["into", "in", "to", "between"],
-    "answer": 0
-  },
-  {
-    "id": 90,
-    "question": "Find the synonym of 'Sublime'.",
-    "options": ["Ordinary", "Elevated", "Lowly", "Common"],
-    "answer": 1
-  },
-  {
-    "id": 91,
-    "question": "Choose the correct tense: By noon tomorrow, she ____ finished the work.",
-    "options": ["has", "will have", "will have to", "will have been"],
-    "answer": 1
-  },
-  {
-    "id": 92,
-    "question": "Identify the correct usage: He is one of those people ____ never give up.",
-    "options": ["who", "which", "whom", "whose"],
-    "answer": 0
-  },
-  {
-    "id": 93,
-    "question": "Choose the correct synonym of 'Candid'.",
-    "options": ["Frank", "Secretive", "Evasive", "Indirect"],
-    "answer": 0
-  },
-  {
-    "id": 94,
-    "question": "Fill in the blank: I object ____ the proposal.",
-    "options": ["to", "on", "at", "about"],
-    "answer": 0
-  },
-  {
-    "id": 95,
-    "question": "Choose the correct option: He looks ____ his father.",
-    "options": ["like", "as", "similar to", "alike"],
-    "answer": 0
-  },
-  {
-    "id": 96,
-    "question": "Identify the antonym of 'Loquacious'.",
-    "options": ["Talkative", "Garrulous", "Taciturn", "Verbose"],
-    "answer": 2
-  },
-  {
-    "id": 97,
-    "question": "Choose the correct tense: She said that she ____ the book the day before.",
-    "options": ["reads", "read", "had read", "will read"],
-    "answer": 2
-  },
-  {
-    "id": 98,
-    "question": "Fill in the blank: He prefers coffee ____ tea.",
-    "options": ["than", "over", "to", "rather"],
-    "answer": 2
-  },
-  {
-    "id": 99,
-    "question": "Choose the correct synonym of 'Imminent'.",
-    "options": ["Distant", "Remote", "About to happen", "Unlikely"],
-    "answer": 2
-  },
-  {
-    "id": 100,
-    "question": "Identify the correct sentence:",
-    "options": ["Each of the players have a chance.", "Every of the players has a chance.", "Each of the players has a chance.", "All of the players has a chance."],
-    "answer": 2
+    "question": "Choose the correct synonym of 'Vivid'.",
+    "options": ["Dull", "Clear", "Faint", "Dim"],
+    "answer": "Clear"
   }
 ]
