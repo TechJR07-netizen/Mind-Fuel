@@ -308,5 +308,306 @@
     "question": "Choose the correct synonym of 'Vivid'.",
     "options": ["Dull", "Clear", "Faint", "Dim"],
     "answer": "Clear"
+  }, 
+  {
+    "id": 51,
+    "question": "Choose the correct option: She ____ to the market yesterday.",
+    "options": ["go", "gone", "went", "going"],
+    "answer": "went"
+  },
+  {
+    "id": 52,
+    "question": "Fill in the blank: They ____ playing football now.",
+    "options": ["is", "are", "was", "were"],
+    "answer": "are"
+  },
+  {
+    "id": 53,
+    "question": "Find the synonym of 'Brave'.",
+    "options": ["Coward", "Courageous", "Afraid", "Weak"],
+    "answer": "Courageous"
+  },
+  {
+    "id": 54,
+    "question": "Choose the antonym of 'Quiet'.",
+    "options": ["Silent", "Calm", "Noisy", "Peaceful"],
+    "answer": "Noisy"
+  },
+  {
+    "id": 55,
+    "question": "Fill in the blank: He has lived here ____ 2010.",
+    "options": ["for", "since", "from", "at"],
+    "answer": "since"
+  },
+  {
+    "id": 56,
+    "question": "Choose the correct spelling:",
+    "options": ["Accomodate", "Acommodate", "Acccommodate", "Accommodate"],
+    "answer": "Accommodate"
+  },
+  {
+    "id": 57,
+    "question": "Choose the correct option: The sun ____ in the east.",
+    "options": ["rise", "rises", "rose", "rising"],
+    "answer": "rises"
+  },
+  {
+    "id": 58,
+    "question": "Find the correct tense: She ____ her work already.",
+    "options": ["finish", "finished", "has finished", "finishing"],
+    "answer": "has finished"
+  },
+  {
+    "id": 59,
+    "question": "Choose the correct article: He is ____ honest man.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an"
+  },
+  {
+    "id": 60,
+    "question": "Choose the correct preposition: The book is ____ the table.",
+    "options": ["in", "on", "under", "over"],
+    "answer": "on"
+  },
+  {
+    "id": 61,
+    "question": "Find the antonym of 'Beautiful'.",
+    "options": ["Pretty", "Ugly", "Gorgeous", "Charming"],
+    "answer": "Ugly"
+  },
+  {
+    "id": 62,
+    "question": "Choose the correct form: He ____ me yesterday.",
+    "options": ["see", "saw", "seen", "seeing"],
+    "answer": "saw"
+  },
+  {
+    "id": 63,
+    "question": "Identify the correct spelling:",
+    "options": ["Recieve", "Receive", "Receeve", "Recive"],
+    "answer": "Receive"
+  },
+  {
+    "id": 64,
+    "question": "Choose the correct synonym of 'Happy'.",
+    "options": ["Sad", "Joyful", "Angry", "Dull"],
+    "answer": "Joyful"
+  },
+  {
+    "id": 65,
+    "question": "Fill in the blank: The train ____ at 6 PM.",
+    "options": ["arrive", "arrives", "arrived", "arriving"],
+    "answer": "arrives"
+  },
+  {
+    "id": 66,
+    "question": "Find the correct pair: Doctor is to Hospital as Teacher is to ____.",
+    "options": ["Class", "School", "Student", "Lesson"],
+    "answer": "School"
+  },
+  {
+    "id": 67,
+    "question": "Choose the antonym of 'Victory'.",
+    "options": ["Defeat", "Win", "Success", "Glory"],
+    "answer": "Defeat"
+  },
+  {
+    "id": 68,
+    "question": "Choose the correct option: She ____ her homework before dinner.",
+    "options": ["finish", "finished", "finishes", "finishing"],
+    "answer": "finished"
+  },
+  {
+    "id": 69,
+    "question": "Select the correct tense: He ____ reading a book.",
+    "options": ["is", "are", "am", "was"],
+    "answer": "is"
+  },
+  {
+    "id": 70,
+    "question": "Identify the correct synonym of 'Famous'.",
+    "options": ["Unknown", "Popular", "Ordinary", "Poor"],
+    "answer": "Popular"
+  },
+  {
+    "id": 71,
+    "question": "Choose the correct spelling:",
+    "options": ["Occurence", "Occurrence", "Ocurence", "Ocurrance"],
+    "answer": "Occurrence"
+  },
+  {
+    "id": 72,
+    "question": "Fill in the blank: He is afraid ____ snakes.",
+    "options": ["of", "from", "with", "by"],
+    "answer": "of"
+  },
+  {
+    "id": 73,
+    "question": "Choose the antonym of 'Brilliant'.",
+    "options": ["Dull", "Smart", "Intelligent", "Bright"],
+    "answer": "Dull"
+  },
+  {
+    "id": 74,
+    "question": "Select the correct option: The baby ____ crying for an hour.",
+    "options": ["has been", "is", "was", "had"],
+    "answer": "has been"
+  },
+  {
+    "id": 75,
+    "question": "Choose the synonym of 'Fast'.",
+    "options": ["Slow", "Quick", "Lazy", "Late"],
+    "answer": "Quick"
+  },
+  {
+    "id": 76,
+    "question": "Find the correct word: He is very ____ at math.",
+    "options": ["good", "well", "best", "better"],
+    "answer": "good"
+  },
+  {
+    "id": 77,
+    "question": "Choose the correct sentence:",
+    "options": ["She don't like tea.", "She doesn't like tea.", "She not like tea.", "She didn't likes tea."],
+    "answer": "She doesn't like tea."
+  },
+  {
+    "id": 78,
+    "question": "Fill in the blank: He ____ his lunch already.",
+    "options": ["eat", "ate", "has eaten", "eating"],
+    "answer": "has eaten"
+  },
+  {
+    "id": 79,
+    "question": "Choose the antonym of 'Rich'.",
+    "options": ["Wealthy", "Poor", "Affluent", "Loaded"],
+    "answer": "Poor"
+  },
+  {
+    "id": 80,
+    "question": "Identify the correct synonym of 'Intelligent'.",
+    "options": ["Foolish", "Clever", "Stupid", "Ignorant"],
+    "answer": "Clever"
+  },
+  {
+    "id": 81,
+    "question": "Choose the correct option: I ____ a letter yesterday.",
+    "options": ["write", "wrote", "written", "writing"],
+    "answer": "wrote"
+  },
+  {
+    "id": 82,
+    "question": "Choose the antonym of 'Begin'.",
+    "options": ["Start", "Open", "End", "Continue"],
+    "answer": "End"
+  },
+  {
+    "id": 83,
+    "question": "Select the correct article: She is ____ best student in class.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the"
+  },
+  {
+    "id": 84,
+    "question": "Fill in the blank: It is too cold ____ go outside.",
+    "options": ["to", "for", "in", "with"],
+    "answer": "to"
+  },
+  {
+    "id": 85,
+    "question": "Choose the correct synonym of 'Angry'.",
+    "options": ["Happy", "Calm", "Furious", "Glad"],
+    "answer": "Furious"
+  },
+  {
+    "id": 86,
+    "question": "Choose the antonym of 'Love'.",
+    "options": ["Hate", "Like", "Care", "Admire"],
+    "answer": "Hate"
+  },
+  {
+    "id": 87,
+    "question": "Find the correct form: He ____ to school every day.",
+    "options": ["go", "goes", "gone", "going"],
+    "answer": "goes"
+  },
+  {
+    "id": 88,
+    "question": "Fill in the blank: She ____ in Delhi since 2015.",
+    "options": ["lives", "has lived", "lived", "living"],
+    "answer": "has lived"
+  },
+  {
+    "id": 89,
+    "question": "Choose the synonym of 'Tiny'.",
+    "options": ["Huge", "Small", "Big", "Large"],
+    "answer": "Small"
+  },
+  {
+    "id": 90,
+    "question": "Select the antonym of 'Old'.",
+    "options": ["Ancient", "New", "Elder", "Past"],
+    "answer": "New"
+  },
+  {
+    "id": 91,
+    "question": "Choose the correct spelling:",
+    "options": ["Definately", "Definitely", "Definetly", "Defnately"],
+    "answer": "Definitely"
+  },
+  {
+    "id": 92,
+    "question": "Fill in the blank: I am interested ____ reading books.",
+    "options": ["in", "on", "at", "for"],
+    "answer": "in"
+  },
+  {
+    "id": 93,
+    "question": "Choose the antonym of 'Weak'.",
+    "options": ["Strong", "Soft", "Fragile", "Gentle"],
+    "answer": "Strong"
+  },
+  {
+    "id": 94,
+    "question": "Find the synonym of 'Job'.",
+    "options": ["Task", "Rest", "Play", "Break"],
+    "answer": "Task"
+  },
+  {
+    "id": 95,
+    "question": "Fill in the blank: He has been working here ____ five years.",
+    "options": ["since", "for", "from", "at"],
+    "answer": "for"
+  },
+  {
+    "id": 96,
+    "question": "Choose the correct form: The baby ____ sleeping now.",
+    "options": ["is", "are", "was", "were"],
+    "answer": "is"
+  },
+  {
+    "id": 97,
+    "question": "Choose the correct synonym of 'Quick'.",
+    "options": ["Slow", "Fast", "Late", "Calm"],
+    "answer": "Fast"
+  },
+  {
+    "id": 98,
+    "question": "Choose the antonym of 'Polite'.",
+    "options": ["Kind", "Rude", "Gentle", "Humble"],
+    "answer": "Rude"
+  },
+  {
+    "id": 99,
+    "question": "Find the synonym of 'Honest'.",
+    "options": ["Truthful", "Cheater", "Greedy", "Lazy"],
+    "answer": "Truthful"
+  },
+  {
+    "id": 100,
+    "question": "Choose the correct option: The color of the sky is ____.",
+    "options": ["blue", "green", "white", "red"],
+    "answer": "blue"
   }
 ]
+
