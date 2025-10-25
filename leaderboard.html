@@ -1,0 +1,56 @@
+<!-- leaderboard.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leaderboard - MindFuel</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      background: #0a0a0a;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      color: #00bfff;
+      margin-bottom: 30px;
+    }
+    table {
+      width: 90%;
+      margin: auto;
+      border-collapse: collapse;
+      background: rgba(255,255,255,0.05);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    th, td {
+      padding: 12px;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    th {
+      background: #00bfff;
+      color: black;
+    }
+    tr:nth-child(1) td:nth-child(1) {
+      color: gold;
+      font-weight: bold;
+    }
+    tr:nth-child(2) td:nth-child(1) {
+      color: silver;
+    }
+    tr:nth-child(3) td:nth-child(1) {
+      color: #cd7f32;
+    }
+  </style>
+</head>
+<body>
+  <h1>🏆 MindFuel Leaderboard</h1>
+  <div id="leaderboard-container">
+    <p>Loading leaderboard...</p>
+  </div>
+  <script src="leaderboard.js"></script>
+</body>
+</html>
