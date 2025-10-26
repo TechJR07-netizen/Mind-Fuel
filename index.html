@@ -204,7 +204,24 @@
 
     <footer>Made by JR</footer>
   </div>
+<!-- 🔥 Firebase SDKs -->
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js"></script>
 
+<script>
+  // Tera Firebase config (mindfuel-f7a5f project ka)
+  const firebaseConfig = {
+    apiKey: "AIzaSyAttJuavq72PoycDtGsLgqb3-M9ZaHsQw8",
+    authDomain: "mindfuel-f7a5f.firebaseapp.com",
+    projectId: "mindfuel-f7a5f",
+    storageBucket: "mindfuel-f7a5f.appspot.com",
+    messagingSenderId: "696149766519",
+    appId: "1:696149766519:web:d5c311b92da5e6c36df172"
+  };
+
+  // Initialize Firebase
+  const app = firebase.initializeApp(firebaseConfig);
+  const db = firebase.firestore();
   <script>
     // Auto hide splash screen and show main app
     setTimeout(() => {
