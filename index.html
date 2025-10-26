@@ -1,77 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MindFuel</title>
   <style>
     body {
-      font-family: "Poppins", sans-serif;
-      background: linear-gradient(135deg, #141e30, #243b55);
-      color: white;
       margin: 0;
-      padding: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #0f0f1a, #1a1a2e);
+      color: white;
       text-align: center;
+      overflow: hidden;
     }
 
     #splash {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: center;
-      height: 100vh;
-      animation: fadeIn 1.5s ease-in-out;
+      justify-content: center;
+      background: black;
+      color: white;
+      font-size: 2rem;
+      animation: fadeOut 1s ease 2.5s forwards;
+    }
+
+    @keyframes fadeOut {
+      to {
+        opacity: 0;
+        visibility: hidden;
+      }
     }
 
     #mainContent {
       display: none;
       flex-direction: column;
       align-items: center;
-      padding: 20px;
-    }
-
-    .container {
-      max-width: 600px;
-      margin: 0 auto;
-    }
-
-    .logo {
-      font-size: 2rem;
-      font-weight: bold;
-      margin: 1rem 0;
-    }
-
-    .card {
-      background: rgba(255, 255, 255, 0.1);
-      border-radius: 12px;
-      padding: 1.5rem;
-      margin: 1rem 0;
-      transition: transform 0.2s ease-in-out;
-    }
-
-    .card:hover {
-      transform: scale(1.05);
-    }
-
-    .btn {
-      background: #00c6ff;
-      border: none;
-      color: white;
-      padding: 0.8rem 1.2rem;
-      border-radius: 8px;
-      cursor: pointer;
-      font-size: 1rem;
-      margin-top: 0.5rem;
-    }
-
-    .btn:hover {
-      background: #0072ff;
-    }
-
-    footer {
-      margin-top: 2rem;
-      font-size: 0.8rem;
-      color: #ccc;
+      justify-content: center;
+      min-height: 100vh;
+      animation: fadeIn 1s ease forwards;
     }
 
     @keyframes fadeIn {
@@ -79,34 +51,66 @@
       to { opacity: 1; }
     }
 
-    @media (max-width: 480px) {
-      .container {
-        width: 90%;
-        padding: 1rem;
-      }
-      .logo {
-        font-size: 1.6rem;
-      }
-      .card h2 {
-        font-size: 1rem;
-      }
+    .container {
+      max-width: 400px;
+      width: 90%;
+    }
+
+    .logo {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 1.5rem;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      margin: 1rem 0;
+      padding: 1.2rem;
+      border-radius: 12px;
+      backdrop-filter: blur(8px);
+    }
+
+    .card h2 {
+      margin: 0 0 0.5rem 0;
+      font-size: 1.3rem;
+    }
+
+    .btn {
+      background: #ff007f;
+      color: white;
+      border: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      margin-top: 0.5rem;
+    }
+
+    .btn:hover {
+      background: #ff3399;
+    }
+
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      opacity: 0.8;
     }
   </style>
 </head>
 <body>
   <!-- Splash Screen -->
   <div id="splash">
-    <h1>MindFuel</h1>
+    <h1>💡 MindFuel</h1>
     <p>Fuel your brain. Unlock your potential.</p>
     <small>Made by JR</small>
   </div>
 
   <!-- Main App -->
-  <div class="container" id="mainContent">
+  <div id="mainContent" class="container">
     <div class="logo">🧠 MindFuel</div>
 
     <div class="card">
-      <h2>📘 Daily Quiz</h2>
+      <h2>📚 Daily Quiz</h2>
       <p>Test your knowledge & earn coins!</p>
       <button class="btn" onclick="window.location.href='quiz-select.html'">Start Quiz</button>
     </div>
@@ -118,7 +122,7 @@
     </div>
 
     <div class="card">
-      <h2>💰 Redeem Rewards</h2>
+      <h2>🎁 Redeem Rewards</h2>
       <p>Convert your points into rewards.</p>
       <button class="btn">Redeem</button>
     </div>
@@ -132,31 +136,13 @@
     <footer>Made by JR</footer>
   </div>
 
-  <!-- Firebase SDKs -->
-  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js"></script>
-
   <script>
-    // Firebase config
-    const firebaseConfig = {
-      apiKey: "AIzaSyAttJuavq72POyCDtGsLgqb3-M9ZalHsQw8",
-      authDomain: "mindfuel-f7a5f.firebaseapp.com",
-      projectId: "mindfuel-f7a5f",
-      storageBucket: "mindfuel-f7a5f.appspot.com",
-      messagingSenderId: "696149766519",
-      appId: "1:696149766519:web:d5c311b92da5e6c36df172"
-    };
-
-    // Initialize Firebase
-    const app = firebase.initializeApp(firebaseConfig);
-    const db = firebase.firestore();
-
-    // Splash screen hide logic
+    // Auto-hide splash screen after 3s
     window.addEventListener("load", () => {
       setTimeout(() => {
         document.getElementById("splash").style.display = "none";
         document.getElementById("mainContent").style.display = "flex";
-      }, 3500);
+      }, 3000);
     });
   </script>
 </body>
